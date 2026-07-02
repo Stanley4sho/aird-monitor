@@ -1,0 +1,317 @@
+{
+  "as_of": "2026-07-02T19:46:40Z",
+  "ai_rdm_score": 70.8,
+  "aird_m_score": 70.8,
+  "status": "強擴張",
+  "status_band": "strong_expansion",
+  "subscores": {
+    "supply_chain_revenue": 77.0,
+    "hyperscaler_capex": 100.0,
+    "market_confirmation": 5.5
+  },
+  "warnings": {
+    "slowdown": false,
+    "bubble_divergence": false
+  },
+  "interpretation_for_00988a": "目前 AI 基建需求仍在擴張，對 00988A 的產業主軸偏正面，但仍需觀察市場價格是否過熱。",
+  "source_status": {
+    "tw_revenue": "ok",
+    "sec_capex": "ok",
+    "market_prices": "ok"
+  },
+  "stale": false,
+  "stale_components": [],
+  "details": {
+    "supply_chain_revenue": {
+      "score": 77.0,
+      "median_yoy_growth_pct": 31.23,
+      "yoy_positive_ratio": 1.0,
+      "avg_3m_yoy_acceleration_ratio": null,
+      "companies": [
+        {
+          "ticker": "3037.TW",
+          "code": "3037",
+          "name": "欣興",
+          "data_month": "2026-05",
+          "yoy_growth_pct": 32.37498119348985,
+          "mom_growth_pct": 0.9126511763774944,
+          "avg_3m_yoy_pct": null,
+          "avg_3m_yoy_accelerating": null,
+          "revenue_current": 14059973,
+          "status": "ok"
+        },
+        {
+          "ticker": "2383.TW",
+          "code": "2383",
+          "name": "台光電",
+          "data_month": "2026-05",
+          "yoy_growth_pct": 114.62781738634055,
+          "mom_growth_pct": 12.172623529960132,
+          "avg_3m_yoy_pct": null,
+          "avg_3m_yoy_accelerating": null,
+          "revenue_current": 15618565,
+          "status": "ok"
+        },
+        {
+          "ticker": "2454.TW",
+          "code": "2454",
+          "name": "聯發科",
+          "data_month": "2026-05",
+          "yoy_growth_pct": 4.98813360428783,
+          "mom_growth_pct": 1.4924621064096488,
+          "avg_3m_yoy_pct": null,
+          "avg_3m_yoy_accelerating": null,
+          "revenue_current": 47434191,
+          "status": "ok"
+        },
+        {
+          "ticker": "2330.TW",
+          "code": "2330",
+          "name": "台積電",
+          "data_month": "2026-05",
+          "yoy_growth_pct": 30.09498020271696,
+          "mom_growth_pct": 1.5217099529812539,
+          "avg_3m_yoy_pct": null,
+          "avg_3m_yoy_accelerating": null,
+          "revenue_current": 416975163,
+          "status": "ok"
+        },
+        {
+          "ticker": "6669.TW",
+          "code": "6669",
+          "name": "緯穎",
+          "data_month": "2026-05",
+          "yoy_growth_pct": 18.160174754048978,
+          "mom_growth_pct": 1.5949004167676164,
+          "avg_3m_yoy_pct": null,
+          "avg_3m_yoy_accelerating": null,
+          "revenue_current": 84050473,
+          "status": "ok"
+        },
+        {
+          "ticker": "3711.TW",
+          "code": "3711",
+          "name": "日月光投控",
+          "data_month": "2026-05",
+          "yoy_growth_pct": 28.568740836032276,
+          "mom_growth_pct": 1.2630402245039276,
+          "avg_3m_yoy_pct": null,
+          "avg_3m_yoy_accelerating": null,
+          "revenue_current": 63033313,
+          "status": "ok"
+        },
+        {
+          "ticker": "2308.TW",
+          "code": "2308",
+          "name": "台達電",
+          "data_month": "2026-05",
+          "yoy_growth_pct": 43.65246228958888,
+          "mom_growth_pct": 0.46031248191821217,
+          "avg_3m_yoy_pct": null,
+          "avg_3m_yoy_accelerating": null,
+          "revenue_current": 58961817,
+          "status": "ok"
+        },
+        {
+          "ticker": "2345.TW",
+          "code": "2345",
+          "name": "智邦",
+          "data_month": "2026-05",
+          "yoy_growth_pct": 56.57862562229947,
+          "mom_growth_pct": 4.614580080825865,
+          "avg_3m_yoy_pct": null,
+          "avg_3m_yoy_accelerating": null,
+          "revenue_current": 28622864,
+          "status": "ok"
+        },
+        {
+          "ticker": "2376.TW",
+          "code": "2376",
+          "name": "技嘉",
+          "data_month": "2026-05",
+          "yoy_growth_pct": 4.97583201425533,
+          "mom_growth_pct": -6.149607032867125,
+          "avg_3m_yoy_pct": null,
+          "avg_3m_yoy_accelerating": null,
+          "revenue_current": 49053470,
+          "status": "ok"
+        },
+        {
+          "ticker": "2356.TW",
+          "code": "2356",
+          "name": "英業達",
+          "data_month": "2026-05",
+          "yoy_growth_pct": 35.30032995276392,
+          "mom_growth_pct": -2.334058001619803,
+          "avg_3m_yoy_pct": null,
+          "avg_3m_yoy_accelerating": null,
+          "revenue_current": 82807865,
+          "status": "ok"
+        }
+      ]
+    },
+    "hyperscaler_capex": {
+      "score": 100.0,
+      "median_capex_yoy_growth_pct": 80.53,
+      "capex_yoy_positive_ratio": 1.0,
+      "positive_keyword_ratio": 1.0,
+      "companies": [
+        {
+          "ticker": "MSFT",
+          "name": "Microsoft",
+          "cik": "0000789019",
+          "latest_quarter": "2026Q1",
+          "latest_capex_usd": 30876000000.0,
+          "yoy_growth_pct": 84.39,
+          "qoq_growth_pct": 3.35,
+          "positive_keyword_found": true,
+          "keyword_source": "https://www.sec.gov/Archives/edgar/data/789019/000119312526191507/msft-20260331.htm",
+          "status": "ok",
+          "note": null
+        },
+        {
+          "ticker": "GOOGL",
+          "name": "Alphabet",
+          "cik": "0001652044",
+          "latest_quarter": "2026Q1",
+          "latest_capex_usd": 35674000000.0,
+          "yoy_growth_pct": 107.44,
+          "qoq_growth_pct": 107.44,
+          "positive_keyword_found": true,
+          "keyword_source": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000048/goog-20260331.htm",
+          "status": "ok",
+          "note": null
+        },
+        {
+          "ticker": "META",
+          "name": "Meta",
+          "cik": "0001326801",
+          "latest_quarter": "2026Q1",
+          "latest_capex_usd": 18997000000.0,
+          "yoy_growth_pct": 46.8,
+          "qoq_growth_pct": 46.8,
+          "positive_keyword_found": true,
+          "keyword_source": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026028526/meta-20260331.htm",
+          "status": "ok",
+          "note": null
+        },
+        {
+          "ticker": "AMZN",
+          "name": "Amazon",
+          "cik": "0001018724",
+          "latest_quarter": "2026Q1",
+          "latest_capex_usd": 44203000000.0,
+          "yoy_growth_pct": 76.68,
+          "qoq_growth_pct": 25.95,
+          "positive_keyword_found": true,
+          "keyword_source": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000014/amzn-20260331.htm",
+          "status": "ok",
+          "note": null
+        }
+      ]
+    },
+    "market_confirmation": {
+      "score": 5.5,
+      "basket_return_20d_pct": -13.34,
+      "benchmark_return_20d_pct": -4.44,
+      "spread_pct": -8.9,
+      "benchmark": {
+        "ticker": "QQQ",
+        "return_20d_pct": -4.44,
+        "last_close": 710.3599853515625,
+        "last_date": "2026-07-02",
+        "source": "yahoo",
+        "status": "ok"
+      },
+      "tickers": [
+        {
+          "ticker": "NVDA",
+          "return_20d_pct": -9.82,
+          "last_close": 193.44000244140625,
+          "last_date": "2026-07-02",
+          "source": "yahoo",
+          "status": "ok"
+        },
+        {
+          "ticker": "AMD",
+          "return_20d_pct": -5.84,
+          "last_close": 510.8399963378906,
+          "last_date": "2026-07-02",
+          "source": "yahoo",
+          "status": "ok"
+        },
+        {
+          "ticker": "AVGO",
+          "return_20d_pct": -25.03,
+          "last_close": 358.69000244140625,
+          "last_date": "2026-07-02",
+          "source": "yahoo",
+          "status": "ok"
+        },
+        {
+          "ticker": "MU",
+          "return_20d_pct": -11.14,
+          "last_close": 959.3300170898438,
+          "last_date": "2026-07-02",
+          "source": "yahoo",
+          "status": "ok"
+        },
+        {
+          "ticker": "TSM",
+          "return_20d_pct": -0.66,
+          "last_close": 432.79998779296875,
+          "last_date": "2026-07-02",
+          "source": "yahoo",
+          "status": "ok"
+        },
+        {
+          "ticker": "ASML",
+          "return_20d_pct": 2.05,
+          "last_close": 1761.68994140625,
+          "last_date": "2026-07-02",
+          "source": "yahoo",
+          "status": "ok"
+        },
+        {
+          "ticker": "ANET",
+          "return_20d_pct": -8.24,
+          "last_close": 160.0,
+          "last_date": "2026-07-02",
+          "source": "yahoo",
+          "status": "ok"
+        },
+        {
+          "ticker": "VRT",
+          "return_20d_pct": -9.12,
+          "last_close": 301.1400146484375,
+          "last_date": "2026-07-02",
+          "source": "yahoo",
+          "status": "ok"
+        },
+        {
+          "ticker": "SMCI",
+          "return_20d_pct": -43.08,
+          "last_close": 26.990100860595703,
+          "last_date": "2026-07-02",
+          "source": "yahoo",
+          "status": "ok"
+        },
+        {
+          "ticker": "LITE",
+          "return_20d_pct": -22.5,
+          "last_close": 726.9450073242188,
+          "last_date": "2026-07-02",
+          "source": "yahoo",
+          "status": "ok"
+        }
+      ]
+    }
+  },
+  "formulas": {
+    "ai_rdm": "AI-RDM = 45% * Supply Chain Revenue Momentum + 35% * Hyperscaler Capex Momentum + 20% * Market Confirmation Spread",
+    "supply_chain_revenue": "40% * YoY>0 比例 + 30% * 3-month average YoY 加速比例 + 30% * median YoY 標準化分數",
+    "hyperscaler_capex": "50% * median capex YoY 標準化分數 + 30% * capex YoY>0 比例 + 20% * AI/datacenter/capacity 關鍵字比例",
+    "market_confirmation": "Spread = AI hardware basket 20D return - QQQ 20D return；-10% 到 +10% 線性映射為 0 到 100"
+  },
+  "disclaimer": "本網站僅供研究與教育用途，不構成任何投資建議、買賣建議或績效保證。"
+}

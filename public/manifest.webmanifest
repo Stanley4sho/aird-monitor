@@ -1,0 +1,24 @@
+{
+  "name": "AI-RDM Monitor：00988A AI 基建實需動能監測器",
+  "short_name": "AI-RDM",
+  "description": "以免費公開資料追蹤 AI 基建實需動能，輔助觀察 00988A 產業主軸。",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#f8fafc",
+  "theme_color": "#0f766e",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
