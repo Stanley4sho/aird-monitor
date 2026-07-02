@@ -1,13 +1,13 @@
 {
-  "as_of": "2026-07-02T20:48:05Z",
-  "ai_rdm_score": 71.0,
-  "aird_m_score": 71.0,
+  "as_of": "2026-07-02T21:46:02Z",
+  "ai_rdm_score": 70.6,
+  "aird_m_score": 70.6,
   "status": "強擴張",
   "status_band": "strong_expansion",
   "subscores": {
     "supply_chain_revenue": 77.0,
     "hyperscaler_capex": 100.0,
-    "market_confirmation": 6.5
+    "market_confirmation": 4.7
   },
   "warnings": {
     "slowdown": false,
@@ -15,12 +15,15 @@
   },
   "interpretation_for_00988a": "目前 AI 基建需求仍在擴張，對 00988A 的產業主軸偏正面，但仍需觀察市場價格是否過熱。",
   "source_status": {
-    "tw_revenue": "ok",
-    "sec_capex": "ok",
-    "market_prices": "ok"
+    "tw_revenue": "stale",
+    "sec_capex": "stale",
+    "market_prices": "partial"
   },
-  "stale": false,
-  "stale_components": [],
+  "stale": true,
+  "stale_components": [
+    "hyperscaler_capex",
+    "supply_chain_revenue"
+  ],
   "details": {
     "supply_chain_revenue": {
       "score": 77.0,
@@ -555,10 +558,10 @@
       ]
     },
     "market_confirmation": {
-      "score": 6.5,
-      "basket_return_20d_pct": -12.84,
+      "score": 4.7,
+      "basket_return_20d_pct": -13.2,
       "benchmark_return_20d_pct": -4.14,
-      "spread_pct": -8.7,
+      "spread_pct": -9.06,
       "benchmark": {
         "ticker": "QQQ",
         "return_20d_pct": -4.14,
@@ -594,11 +597,12 @@
         },
         {
           "ticker": "MU",
-          "return_20d_pct": -9.63,
-          "last_close": 975.5599975585938,
-          "last_date": "2026-07-02",
-          "source": "yahoo",
-          "status": "ok"
+          "return_20d_pct": null,
+          "last_close": null,
+          "last_date": null,
+          "source": null,
+          "status": "error",
+          "note": "stooq: unexpected response, not CSV; yahoo: 500 Server Error: INKApi Error for url: https://query2.finance.yahoo.com/v8/finance/chart/MU?range=4mo&interval=1d&events=history; nasdaq: HTTPSConnectionPool(host='api.nasdaq.com', port=443): Read timed out. (read timeout=30)"
         },
         {
           "ticker": "TSM",
