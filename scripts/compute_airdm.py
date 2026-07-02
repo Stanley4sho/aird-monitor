@@ -95,6 +95,10 @@ def build_latest(
             },
             "hyperscaler_capex": {
                 "score": capex_score,
+                "raw_capex_score": capex.get("raw_capex_score"),
+                "coverage": capex.get("coverage"),
+                "valid_companies": capex.get("valid_companies"),
+                "expected_companies": capex.get("expected_companies"),
                 "median_capex_yoy_growth_pct": capex.get("median_capex_yoy_growth_pct"),
                 "capex_yoy_positive_ratio": capex.get("capex_yoy_positive_ratio"),
                 "positive_keyword_ratio": capex.get("positive_keyword_ratio"),
@@ -112,7 +116,7 @@ def build_latest(
         "formulas": {
             "ai_rdm": "AI-RDM = 45% * Supply Chain Revenue Momentum + 35% * Hyperscaler Capex Momentum + 20% * Market Confirmation Spread",
             "supply_chain_revenue": "40% * YoY>0 比例 + 30% * 3-month average YoY 加速比例 + 30% * median YoY 標準化分數",
-            "hyperscaler_capex": "50% * median capex YoY 標準化分數 + 30% * capex YoY>0 比例 + 20% * AI/datacenter/capacity 關鍵字比例",
+            "hyperscaler_capex": "raw_capex_score = 50% * median capex YoY 標準化分數 + 30% * capex YoY>0 比例 + 20% * AI/datacenter/capacity 關鍵字比例；final = raw * coverage + 50 * (1 - coverage)",
             "market_confirmation": "Spread = AI hardware basket 20D return - QQQ 20D return；-10% 到 +10% 線性映射為 0 到 100",
         },
         "disclaimer": "本網站僅供研究與教育用途，不構成任何投資建議、買賣建議或績效保證。",

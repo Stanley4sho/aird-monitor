@@ -123,6 +123,8 @@ XBRL tag 優先序：
 3. `PropertyPlantAndEquipmentAdditions`
 4. fallback：`PaymentsToAcquireProductiveAssets`
 
+同一家公司會先依 tag 產生季度 capex series；若多個 tag 都能產生同一個最新季度，使用上述優先序。若高優先序 tag 已停止更新、fallback tag 較新，則使用較新的 fallback tag，並在 `source_status.json` 的 `tag_usage` 記錄每家公司實際採用的 tag。
+
 SEC 要求 User-Agent。workflow 預設：
 
 ```text
@@ -131,10 +133,19 @@ ai-rdm-monitor contact example@example.com
 
 你可以在 workflow 裡把 `SEC_USER_AGENT` 改成自己的 repo 名稱與聯絡信箱。
 
+季度化處理：
+
+- 單季資料：duration 約 70-115 天，且期間起訖接近該公司 fiscal quarter。
+- 6-month YTD：用 `Q2 = 6-month YTD - Q1` 反推第二季。
+- 9-month YTD：用 `Q3 = 9-month YTD - 6-month YTD` 反推第三季。
+- fiscal-year annual value：用 `Q4 = FY annual value - 9-month YTD` 反推第四季。
+- 如果只有 annual 或 YTD，但缺少可相減的前一期累計值，該季度不硬算，該公司會標示為 `missing` 或低信心。
+- 每家公司輸出最近四季 capex，包含 fiscal year、fiscal quarter、period start/end、capex、YoY、QoQ、source tag、confidence。
+
 計算方式：
 
 ```text
-Hyperscaler Capex Momentum =
+raw_capex_score =
 50% * 四家公司 capex YoY growth 的 median 標準化分數
 + 30% * 四家公司中 capex YoY > 0 的比例
 + 20% * 最新 10-Q / 10-K 是否出現 AI infrastructure、datacenter、capex、capacity expansion 等關鍵字的比例
@@ -146,7 +157,18 @@ median capex YoY 標準化：
 - median capex YoY >= +40%：100 分
 - 中間線性換算
 
-如果某家公司無法可靠抓到 capex，會標示為 `missing` 或 `partial`，不會亂補數字。
+coverage penalty：
+
+```text
+expected companies = 4
+valid companies = 有可靠最近季度 YoY 的公司數
+coverage = valid companies / 4
+final_capex_score = raw_capex_score * coverage + 50 * (1 - coverage)
+```
+
+缺資料時分數往中性 50 靠攏，而不是只用成功樣本放大分數。這樣可以避免只抓到少數公司且剛好都很強時，把整個 hyperscaler capex 動能誤判為 100 分。若 `valid companies < 2`，Hyperscaler Capex Momentum 不得高於 55，且資料源狀態標示為 `partial`。
+
+如果某家公司無法可靠抓到 capex，會標示為 `missing`、`low` 或 `partial`，不會亂補數字。
 
 ### C. Market Confirmation Spread，權重 20%
 
@@ -258,6 +280,7 @@ UPDATE_MODE=market python scripts/update_data.py
 
 - 抓取失敗不會清空舊資料
 - 單一公司 missing 不會讓整體流程失敗
+- capex partial missing 會使用 coverage penalty，往中性 50 靠攏
 - 若某資料源失敗，會沿用上一版分數並標示 `stale`
 - 若完全沒有舊資料，才會以中性 50 分作為初始化 fallback
 
