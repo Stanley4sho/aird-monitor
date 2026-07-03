@@ -1,36 +1,49 @@
 {
-  "generated_at": "2026-07-02T21:46:02Z",
-  "stale": true,
+  "generated_at": "2026-07-03T01:07:56Z",
+  "stale": false,
   "sources": {
     "tw_revenue": {
-      "status": "stale",
-      "last_updated": "2026-07-02T20:48:05Z",
-      "source": "previous latest.json",
+      "status": "ok",
+      "last_updated": "2026-07-03T01:07:32Z",
+      "source": "https://mopsfin.twse.com.tw/opendata/t187ap05_L.csv",
+      "success_count": 10,
       "missing": [],
       "notes": [
-        "market-only update: fundamental component carried forward"
-      ]
+        "三個月平均 YoY 加速需要至少六個月觀測；資料不足時該項暫以中性 50 分處理。"
+      ],
+      "raw_snapshot": "data/raw/tw_revenue_latest.csv"
     },
     "sec_capex": {
-      "status": "stale",
-      "last_updated": "2026-07-02T20:48:05Z",
-      "source": "previous latest.json",
+      "status": "ok",
+      "last_updated": "2026-07-03T01:07:47Z",
+      "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK##########.json",
+      "success_count": 4,
       "missing": [],
-      "notes": [
-        "market-only update: fundamental component carried forward"
-      ]
+      "notes": [],
+      "coverage": 1.0,
+      "valid_companies": 4,
+      "expected_companies": 4,
+      "raw_capex_score": 100.0,
+      "tag_usage": {
+        "MSFT": "PaymentsToAcquirePropertyPlantAndEquipment",
+        "GOOGL": "PaymentsToAcquirePropertyPlantAndEquipment",
+        "META": "PaymentsToAcquirePropertyPlantAndEquipment",
+        "AMZN": "PaymentsToAcquireProductiveAssets"
+      },
+      "company_confidence": {
+        "MSFT": "high",
+        "GOOGL": "high",
+        "META": "high",
+        "AMZN": "high"
+      }
     },
     "market_prices": {
-      "status": "partial",
-      "last_updated": "2026-07-02T21:45:26Z",
+      "status": "ok",
+      "last_updated": "2026-07-03T01:07:50Z",
       "source": "Stooq / Yahoo Finance chart / Nasdaq historical",
-      "success_count": 9,
-      "missing": [
-        "MU"
-      ],
-      "notes": [
-        "MU: stooq: unexpected response, not CSV; yahoo: 500 Server Error: INKApi Error for url: https://query2.finance.yahoo.com/v8/finance/chart/MU?range=4mo&interval=1d&events=history; nasdaq: HTTPSConnectionPool(host='api.nasdaq.com', port=443): Read timed out. (read timeout=30)"
-      ]
+      "success_count": 10,
+      "missing": [],
+      "notes": []
     }
   }
 }
