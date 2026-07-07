@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-07T22:38:31Z",
+  "updated_at": "2026-07-07T23:11:48Z",
   "series": [
     {
       "as_of": "2026-07-02T19:46:40Z",
@@ -178,6 +178,13 @@
     },
     {
       "as_of": "2026-07-07T22:38:31Z",
+      "ai_rdm_score": 76.5,
+      "supply_chain_revenue": 77.0,
+      "hyperscaler_capex": 100.0,
+      "market_confirmation": 34.4
+    },
+    {
+      "as_of": "2026-07-07T23:11:48Z",
       "ai_rdm_score": 76.5,
       "supply_chain_revenue": 77.0,
       "hyperscaler_capex": 100.0,
