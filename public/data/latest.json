@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-08T20:04:41Z",
+  "as_of": "2026-07-08T21:42:41Z",
   "ai_rdm_score": 77.2,
   "aird_m_score": 77.2,
   "status": "強擴張",
@@ -7,7 +7,7 @@
   "subscores": {
     "supply_chain_revenue": 77.0,
     "hyperscaler_capex": 100.0,
-    "market_confirmation": 37.5
+    "market_confirmation": 37.6
   },
   "warnings": {
     "slowdown": false,
@@ -558,10 +558,10 @@
       ]
     },
     "market_confirmation": {
-      "score": 37.5,
-      "basket_return_20d_pct": -3.04,
+      "score": 37.6,
+      "basket_return_20d_pct": -3.03,
       "benchmark_return_20d_pct": -0.54,
-      "spread_pct": -2.5,
+      "spread_pct": -2.49,
       "benchmark": {
         "ticker": "QQQ",
         "return_20d_pct": -0.54,
@@ -605,8 +605,8 @@
         },
         {
           "ticker": "TSM",
-          "return_20d_pct": 2.53,
-          "last_close": 436.5899963378906,
+          "return_20d_pct": 2.62,
+          "last_close": 436.9800109863281,
           "last_date": "2026-07-08",
           "source": "yahoo",
           "status": "ok"
@@ -621,16 +621,16 @@
         },
         {
           "ticker": "ANET",
-          "return_20d_pct": 15.74,
-          "last_close": 181.02000427246094,
+          "return_20d_pct": 15.76,
+          "last_close": 181.0500030517578,
           "last_date": "2026-07-08",
           "source": "yahoo",
           "status": "ok"
         },
         {
           "ticker": "VRT",
-          "return_20d_pct": 5.77,
-          "last_close": 317.8500061035156,
+          "return_20d_pct": 5.76,
+          "last_close": 317.80999755859375,
           "last_date": "2026-07-08",
           "source": "yahoo",
           "status": "ok"
