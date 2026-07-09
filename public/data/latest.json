@@ -1,13 +1,13 @@
 {
-  "as_of": "2026-07-09T01:07:24Z",
-  "ai_rdm_score": 77.2,
-  "aird_m_score": 77.2,
+  "as_of": "2026-07-09T17:01:57Z",
+  "ai_rdm_score": 80.5,
+  "aird_m_score": 80.5,
   "status": "強擴張",
   "status_band": "strong_expansion",
   "subscores": {
     "supply_chain_revenue": 77.0,
     "hyperscaler_capex": 100.0,
-    "market_confirmation": 37.6
+    "market_confirmation": 54.3
   },
   "warnings": {
     "slowdown": false,
@@ -15,12 +15,15 @@
   },
   "interpretation_for_00988a": "目前 AI 基建需求仍在擴張，對 00988A 的產業主軸偏正面，但仍需觀察市場價格是否過熱。",
   "source_status": {
-    "tw_revenue": "ok",
-    "sec_capex": "ok",
+    "tw_revenue": "stale",
+    "sec_capex": "stale",
     "market_prices": "ok"
   },
-  "stale": false,
-  "stale_components": [],
+  "stale": true,
+  "stale_components": [
+    "hyperscaler_capex",
+    "supply_chain_revenue"
+  ],
   "details": {
     "supply_chain_revenue": {
       "score": 77.0,
@@ -555,96 +558,96 @@
       ]
     },
     "market_confirmation": {
-      "score": 37.6,
-      "basket_return_20d_pct": -3.03,
-      "benchmark_return_20d_pct": -0.54,
-      "spread_pct": -2.49,
+      "score": 54.3,
+      "basket_return_20d_pct": 3.03,
+      "benchmark_return_20d_pct": 2.18,
+      "spread_pct": 0.85,
       "benchmark": {
         "ticker": "QQQ",
-        "return_20d_pct": -0.54,
-        "last_close": 711.4400024414062,
-        "last_date": "2026-07-08",
+        "return_20d_pct": 2.18,
+        "last_close": 722.4600219726562,
+        "last_date": "2026-07-09",
         "source": "yahoo",
         "status": "ok"
       },
       "tickers": [
         {
           "ticker": "NVDA",
-          "return_20d_pct": -2.17,
-          "last_close": 204.1199951171875,
-          "last_date": "2026-07-08",
+          "return_20d_pct": -3.04,
+          "last_close": 201.86000061035156,
+          "last_date": "2026-07-09",
           "source": "yahoo",
           "status": "ok"
         },
         {
           "ticker": "AMD",
-          "return_20d_pct": 5.52,
-          "last_close": 517.405029296875,
-          "last_date": "2026-07-08",
+          "return_20d_pct": 16.03,
+          "last_close": 551.7150268554688,
+          "last_date": "2026-07-09",
           "source": "yahoo",
           "status": "ok"
         },
         {
           "ticker": "AVGO",
-          "return_20d_pct": -1.84,
-          "last_close": 388.69000244140625,
-          "last_date": "2026-07-08",
+          "return_20d_pct": 2.97,
+          "last_close": 403.17999267578125,
+          "last_date": "2026-07-09",
           "source": "yahoo",
           "status": "ok"
         },
         {
           "ticker": "MU",
-          "return_20d_pct": -0.04,
-          "last_close": 948.7999877929688,
-          "last_date": "2026-07-08",
+          "return_20d_pct": 8.61,
+          "last_close": 1016.27001953125,
+          "last_date": "2026-07-09",
           "source": "yahoo",
           "status": "ok"
         },
         {
           "ticker": "TSM",
-          "return_20d_pct": 2.62,
-          "last_close": 436.9800109863281,
-          "last_date": "2026-07-08",
+          "return_20d_pct": 3.45,
+          "last_close": 441.6650085449219,
+          "last_date": "2026-07-09",
           "source": "yahoo",
           "status": "ok"
         },
         {
           "ticker": "ASML",
-          "return_20d_pct": 1.12,
-          "last_close": 1768.6500244140625,
-          "last_date": "2026-07-08",
+          "return_20d_pct": 2.66,
+          "last_close": 1825.0999755859375,
+          "last_date": "2026-07-09",
           "source": "yahoo",
           "status": "ok"
         },
         {
           "ticker": "ANET",
-          "return_20d_pct": 15.76,
-          "last_close": 181.0500030517578,
-          "last_date": "2026-07-08",
+          "return_20d_pct": 20.82,
+          "last_close": 183.83999633789062,
+          "last_date": "2026-07-09",
           "source": "yahoo",
           "status": "ok"
         },
         {
           "ticker": "VRT",
-          "return_20d_pct": 5.76,
-          "last_close": 317.80999755859375,
-          "last_date": "2026-07-08",
+          "return_20d_pct": 12.45,
+          "last_close": 325.5,
+          "last_date": "2026-07-09",
           "source": "yahoo",
           "status": "ok"
         },
         {
           "ticker": "SMCI",
-          "return_20d_pct": -35.96,
-          "last_close": 28.170000076293945,
-          "last_date": "2026-07-08",
+          "return_20d_pct": -29.5,
+          "last_close": 28.649999618530273,
+          "last_date": "2026-07-09",
           "source": "yahoo",
           "status": "ok"
         },
         {
           "ticker": "LITE",
-          "return_20d_pct": -21.03,
-          "last_close": 707.0999755859375,
-          "last_date": "2026-07-08",
+          "return_20d_pct": -4.12,
+          "last_close": 787.89501953125,
+          "last_date": "2026-07-09",
           "source": "yahoo",
           "status": "ok"
         }
