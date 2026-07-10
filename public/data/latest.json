@@ -1,13 +1,13 @@
 {
-  "as_of": "2026-07-10T19:03:02Z",
-  "ai_rdm_score": 83.5,
-  "aird_m_score": 83.5,
+  "as_of": "2026-07-10T20:50:28Z",
+  "ai_rdm_score": 83.3,
+  "aird_m_score": 83.3,
   "status": "強擴張",
   "status_band": "strong_expansion",
   "subscores": {
     "supply_chain_revenue": 77.0,
     "hyperscaler_capex": 100.0,
-    "market_confirmation": 69.2
+    "market_confirmation": 68.3
   },
   "warnings": {
     "slowdown": false,
@@ -558,14 +558,14 @@
       ]
     },
     "market_confirmation": {
-      "score": 69.2,
-      "basket_return_20d_pct": 8.58,
-      "benchmark_return_20d_pct": 4.74,
-      "spread_pct": 3.84,
+      "score": 68.3,
+      "basket_return_20d_pct": 8.36,
+      "benchmark_return_20d_pct": 4.7,
+      "spread_pct": 3.66,
       "benchmark": {
         "ticker": "QQQ",
-        "return_20d_pct": 4.74,
-        "last_close": 725.75,
+        "return_20d_pct": 4.7,
+        "last_close": 725.510009765625,
         "last_date": "2026-07-10",
         "source": "yahoo",
         "status": "ok"
@@ -573,48 +573,48 @@
       "tickers": [
         {
           "ticker": "NVDA",
-          "return_20d_pct": 4.86,
-          "last_close": 210.15499877929688,
+          "return_20d_pct": 5.26,
+          "last_close": 210.9600067138672,
           "last_date": "2026-07-10",
           "source": "yahoo",
           "status": "ok"
         },
         {
           "ticker": "AMD",
-          "return_20d_pct": 22.68,
-          "last_close": 555.02001953125,
+          "return_20d_pct": 23.32,
+          "last_close": 557.8900146484375,
           "last_date": "2026-07-10",
           "source": "yahoo",
           "status": "ok"
         },
         {
           "ticker": "AVGO",
-          "return_20d_pct": 7.71,
-          "last_close": 400.1736145019531,
+          "return_20d_pct": 7.66,
+          "last_close": 399.9700012207031,
           "last_date": "2026-07-10",
           "source": "yahoo",
           "status": "ok"
         },
         {
           "ticker": "MU",
-          "return_20d_pct": 11.29,
-          "last_close": 992.4099731445312,
+          "return_20d_pct": 9.82,
+          "last_close": 979.2999877929688,
           "last_date": "2026-07-10",
           "source": "yahoo",
           "status": "ok"
         },
         {
           "ticker": "TSM",
-          "return_20d_pct": 7.04,
-          "last_close": 436.5150146484375,
+          "return_20d_pct": 6.45,
+          "last_close": 434.1099853515625,
           "last_date": "2026-07-10",
           "source": "yahoo",
           "status": "ok"
         },
         {
           "ticker": "ASML",
-          "return_20d_pct": 3.84,
-          "last_close": 1800.8514404296875,
+          "return_20d_pct": 3.64,
+          "last_close": 1797.3199462890625,
           "last_date": "2026-07-10",
           "source": "yahoo",
           "status": "ok"
@@ -622,31 +622,31 @@
         {
           "ticker": "ANET",
           "return_20d_pct": 23.19,
-          "last_close": 186.9499969482422,
+          "last_close": 186.9600067138672,
           "last_date": "2026-07-10",
           "source": "yahoo",
           "status": "ok"
         },
         {
           "ticker": "VRT",
-          "return_20d_pct": 14.52,
-          "last_close": 321.70001220703125,
+          "return_20d_pct": 13.5,
+          "last_close": 318.8599853515625,
           "last_date": "2026-07-10",
           "source": "yahoo",
           "status": "ok"
         },
         {
           "ticker": "SMCI",
-          "return_20d_pct": -1.91,
-          "last_close": 28.709999084472656,
+          "return_20d_pct": -3.28,
+          "last_close": 28.309999465942383,
           "last_date": "2026-07-10",
           "source": "yahoo",
           "status": "ok"
         },
         {
           "ticker": "LITE",
-          "return_20d_pct": -7.43,
-          "last_close": 789.8499755859375,
+          "return_20d_pct": -6.01,
+          "last_close": 802.010009765625,
           "last_date": "2026-07-10",
           "source": "yahoo",
           "status": "ok"
