@@ -1,14 +1,23 @@
 {
-  "generated_at": "2026-07-10T23:10:16Z",
-  "stale": false,
+  "generated_at": "2026-07-11T00:15:24Z",
+  "stale": true,
   "sources": {
     "tw_revenue": {
-      "status": "partial",
-      "last_updated": "2026-07-10T23:10:03Z",
+      "status": "stale",
+      "last_updated": "2026-07-11T00:15:11Z",
       "source": "https://mopsfin.twse.com.tw/opendata/t187ap05_L.csv",
-      "success_count": 9,
+      "success_count": 0,
       "missing": [
-        "2330.TW"
+        "3037.TW",
+        "2383.TW",
+        "2454.TW",
+        "2330.TW",
+        "6669.TW",
+        "3711.TW",
+        "2308.TW",
+        "2345.TW",
+        "2376.TW",
+        "2356.TW"
       ],
       "notes": [
         "三個月平均 YoY 加速需要至少六個月觀測；資料不足時該項暫以中性 50 分處理。"
@@ -17,7 +26,7 @@
     },
     "sec_capex": {
       "status": "ok",
-      "last_updated": "2026-07-10T23:10:05Z",
+      "last_updated": "2026-07-11T00:15:12Z",
       "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK##########.json",
       "success_count": 4,
       "missing": [],
@@ -41,7 +50,7 @@
     },
     "market_prices": {
       "status": "ok",
-      "last_updated": "2026-07-10T23:10:09Z",
+      "last_updated": "2026-07-11T00:15:16Z",
       "source": "Stooq / Yahoo Finance chart / Nasdaq historical",
       "success_count": 10,
       "missing": [],
