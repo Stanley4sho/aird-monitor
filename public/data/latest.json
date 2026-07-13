@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-13T22:28:29Z",
+  "as_of": "2026-07-13T23:06:59Z",
   "ai_rdm_score": 82.4,
   "aird_m_score": 82.4,
   "status": "強擴張",
@@ -15,19 +15,16 @@
   },
   "interpretation_for_00988a": "目前 AI 基建需求仍在擴張，對 00988A 的產業主軸偏正面，但仍需觀察市場價格是否過熱。",
   "source_status": {
-    "tw_revenue": "stale",
-    "sec_capex": "stale",
+    "tw_revenue": "ok",
+    "sec_capex": "ok",
     "market_prices": "ok"
   },
-  "stale": true,
-  "stale_components": [
-    "hyperscaler_capex",
-    "supply_chain_revenue"
-  ],
+  "stale": false,
+  "stale_components": [],
   "details": {
     "supply_chain_revenue": {
       "score": 85.0,
-      "median_yoy_growth_pct": 55.43,
+      "median_yoy_growth_pct": 58.3,
       "yoy_positive_ratio": 1.0,
       "avg_3m_yoy_acceleration_ratio": null,
       "companies": [
@@ -71,14 +68,13 @@
           "ticker": "2330.TW",
           "code": "2330",
           "name": "台積電",
-          "data_month": null,
-          "yoy_growth_pct": null,
-          "mom_growth_pct": null,
+          "data_month": "2026-06",
+          "yoy_growth_pct": 67.86685548491262,
+          "mom_growth_pct": 6.164589232380731,
           "avg_3m_yoy_pct": null,
           "avg_3m_yoy_accelerating": null,
-          "revenue_current": null,
-          "status": "partial",
-          "note": "not found in monthly revenue csv"
+          "revenue_current": 442679969,
+          "status": "ok"
         },
         {
           "ticker": "6669.TW",
