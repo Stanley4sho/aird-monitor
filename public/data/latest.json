@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-14T23:07:22Z",
+  "as_of": "2026-07-15T00:10:51Z",
   "ai_rdm_score": 83.2,
   "aird_m_score": 83.2,
   "status": "強擴張",
@@ -562,7 +562,7 @@
       "benchmark": {
         "ticker": "QQQ",
         "return_20d_pct": -0.12,
-        "last_close": 719.6900024414062,
+        "last_close": 719.7100219726562,
         "last_date": "2026-07-14",
         "source": "yahoo",
         "status": "ok"
