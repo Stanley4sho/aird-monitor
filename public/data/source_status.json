@@ -1,28 +1,45 @@
 {
-  "generated_at": "2026-07-15T21:30:25Z",
-  "stale": true,
+  "generated_at": "2026-07-15T23:08:38Z",
+  "stale": false,
   "sources": {
     "tw_revenue": {
-      "status": "stale",
-      "last_updated": "2026-07-15T19:45:51Z",
-      "source": "previous latest.json",
+      "status": "ok",
+      "last_updated": "2026-07-15T23:08:27Z",
+      "source": "https://mopsfin.twse.com.tw/opendata/t187ap05_L.csv",
+      "success_count": 10,
       "missing": [],
       "notes": [
-        "market-only update: fundamental component carried forward"
-      ]
+        "三個月平均 YoY 加速需要至少六個月觀測；資料不足時該項暫以中性 50 分處理。"
+      ],
+      "raw_snapshot": "data/raw/tw_revenue_latest.csv"
     },
     "sec_capex": {
-      "status": "stale",
-      "last_updated": "2026-07-15T19:45:51Z",
-      "source": "previous latest.json",
+      "status": "ok",
+      "last_updated": "2026-07-15T23:08:28Z",
+      "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK##########.json",
+      "success_count": 4,
       "missing": [],
-      "notes": [
-        "market-only update: fundamental component carried forward"
-      ]
+      "notes": [],
+      "coverage": 1.0,
+      "valid_companies": 4,
+      "expected_companies": 4,
+      "raw_capex_score": 100.0,
+      "tag_usage": {
+        "MSFT": "PaymentsToAcquirePropertyPlantAndEquipment",
+        "GOOGL": "PaymentsToAcquirePropertyPlantAndEquipment",
+        "META": "PaymentsToAcquirePropertyPlantAndEquipment",
+        "AMZN": "PaymentsToAcquireProductiveAssets"
+      },
+      "company_confidence": {
+        "MSFT": "high",
+        "GOOGL": "high",
+        "META": "high",
+        "AMZN": "high"
+      }
     },
     "market_prices": {
       "status": "ok",
-      "last_updated": "2026-07-15T21:30:19Z",
+      "last_updated": "2026-07-15T23:08:31Z",
       "source": "Stooq / Yahoo Finance chart / Nasdaq historical",
       "success_count": 10,
       "missing": [],
