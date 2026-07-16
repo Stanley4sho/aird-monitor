@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-16T21:33:54Z",
+  "updated_at": "2026-07-16T23:07:28Z",
   "series": [
     {
       "as_of": "2026-07-02T19:46:40Z",
@@ -504,6 +504,13 @@
       "supply_chain_revenue": 85.0,
       "hyperscaler_capex": 100.0,
       "market_confirmation": 36.2
+    },
+    {
+      "as_of": "2026-07-16T23:07:28Z",
+      "ai_rdm_score": 80.5,
+      "supply_chain_revenue": 85.0,
+      "hyperscaler_capex": 100.0,
+      "market_confirmation": 36.2
     }
   ],
   "tw_revenue_observations": {
@@ -524,7 +531,7 @@
         "revenue_previous_year": 10928735,
         "yoy_growth_pct": 36.31065260526493,
         "mom_growth_pct": 5.9534751595895665,
-        "fetched_at": "2026-07-16T00:15:01Z"
+        "fetched_at": "2026-07-16T23:07:16Z"
       }
     ],
     "2383": [
@@ -544,7 +551,7 @@
         "revenue_previous_year": 8035115,
         "yoy_growth_pct": 120.69324458952983,
         "mom_growth_pct": 13.537677757207529,
-        "fetched_at": "2026-07-16T00:15:01Z"
+        "fetched_at": "2026-07-16T23:07:16Z"
       }
     ],
     "2454": [
@@ -564,7 +571,7 @@
         "revenue_previous_year": 56433621,
         "yoy_growth_pct": 2.796444693846599,
         "mom_growth_pct": 22.299452730204674,
-        "fetched_at": "2026-07-16T00:15:01Z"
+        "fetched_at": "2026-07-16T23:07:16Z"
       }
     ],
     "2330": [
@@ -584,7 +591,7 @@
         "revenue_previous_year": 263708978,
         "yoy_growth_pct": 67.86685548491262,
         "mom_growth_pct": 6.164589232380731,
-        "fetched_at": "2026-07-16T00:15:01Z"
+        "fetched_at": "2026-07-16T23:07:16Z"
       }
     ],
     "6669": [
@@ -604,7 +611,7 @@
         "revenue_previous_year": 85808220,
         "yoy_growth_pct": 29.790739162285384,
         "mom_growth_pct": 32.50505205366304,
-        "fetched_at": "2026-07-16T00:15:01Z"
+        "fetched_at": "2026-07-16T23:07:16Z"
       }
     ],
     "3711": [
@@ -624,7 +631,7 @@
         "revenue_previous_year": 49512621,
         "yoy_growth_pct": 32.861279955266355,
         "mom_growth_pct": 4.362437684340025,
-        "fetched_at": "2026-07-16T00:15:01Z"
+        "fetched_at": "2026-07-16T23:07:16Z"
       }
     ],
     "2308": [
@@ -644,7 +651,7 @@
         "revenue_previous_year": 42208156,
         "yoy_growth_pct": 55.42638489110967,
         "mom_growth_pct": 11.262872038017417,
-        "fetched_at": "2026-07-16T00:15:01Z"
+        "fetched_at": "2026-07-16T23:07:16Z"
       }
     ],
     "2345": [
@@ -664,7 +671,7 @@
         "revenue_previous_year": 24543014,
         "yoy_growth_pct": 61.16410559844036,
         "mom_growth_pct": 38.192072603216786,
-        "fetched_at": "2026-07-16T00:15:01Z"
+        "fetched_at": "2026-07-16T23:07:16Z"
       }
     ],
     "2376": [
@@ -684,7 +691,7 @@
         "revenue_previous_year": 25447702,
         "yoy_growth_pct": 68.55140790315762,
         "mom_growth_pct": -12.559784251756298,
-        "fetched_at": "2026-07-16T00:15:01Z"
+        "fetched_at": "2026-07-16T23:07:16Z"
       }
     ],
     "2356": [
@@ -704,7 +711,7 @@
         "revenue_previous_year": 63274343,
         "yoy_growth_pct": 61.617467920607254,
         "mom_growth_pct": 23.493572742154385,
-        "fetched_at": "2026-07-16T00:15:01Z"
+        "fetched_at": "2026-07-16T23:07:16Z"
       }
     ]
   }
