@@ -1,13 +1,13 @@
 {
-  "as_of": "2026-07-17T15:56:35Z",
-  "ai_rdm_score": 79.6,
-  "aird_m_score": 79.6,
+  "as_of": "2026-07-17T17:39:08Z",
+  "ai_rdm_score": 80.1,
+  "aird_m_score": 80.1,
   "status": "強擴張",
   "status_band": "strong_expansion",
   "subscores": {
     "supply_chain_revenue": 85.0,
     "hyperscaler_capex": 100.0,
-    "market_confirmation": 31.7
+    "market_confirmation": 34.3
   },
   "warnings": {
     "slowdown": false,
@@ -558,14 +558,14 @@
       ]
     },
     "market_confirmation": {
-      "score": 31.7,
-      "basket_return_20d_pct": -6.81,
-      "benchmark_return_20d_pct": -3.15,
-      "spread_pct": -3.66,
+      "score": 34.3,
+      "basket_return_20d_pct": -6.06,
+      "benchmark_return_20d_pct": -2.93,
+      "spread_pct": -3.13,
       "benchmark": {
         "ticker": "QQQ",
-        "return_20d_pct": -3.15,
-        "last_close": 699.010009765625,
+        "return_20d_pct": -2.93,
+        "last_close": 700.5800170898438,
         "last_date": "2026-07-17",
         "source": "yahoo",
         "status": "ok"
@@ -573,80 +573,80 @@
       "tickers": [
         {
           "ticker": "NVDA",
-          "return_20d_pct": 0.3,
-          "last_close": 205.26499938964844,
+          "return_20d_pct": 0.36,
+          "last_close": 205.38499450683594,
           "last_date": "2026-07-17",
           "source": "yahoo",
           "status": "ok"
         },
         {
           "ticker": "AMD",
-          "return_20d_pct": -2.67,
-          "last_close": 498.79998779296875,
+          "return_20d_pct": -1.95,
+          "last_close": 502.5,
           "last_date": "2026-07-17",
           "source": "yahoo",
           "status": "ok"
         },
         {
           "ticker": "AVGO",
-          "return_20d_pct": -4.93,
-          "last_close": 372.9418029785156,
+          "return_20d_pct": -4.3,
+          "last_close": 375.4150085449219,
           "last_date": "2026-07-17",
           "source": "yahoo",
           "status": "ok"
         },
         {
           "ticker": "MU",
-          "return_20d_pct": -15.8,
-          "last_close": 878.2000122070312,
+          "return_20d_pct": -14.65,
+          "last_close": 890.22998046875,
           "last_date": "2026-07-17",
           "source": "yahoo",
           "status": "ok"
         },
         {
           "ticker": "TSM",
-          "return_20d_pct": -6.93,
-          "last_close": 402.2099914550781,
+          "return_20d_pct": -7.0,
+          "last_close": 401.9200134277344,
           "last_date": "2026-07-17",
           "source": "yahoo",
           "status": "ok"
         },
         {
           "ticker": "ASML",
-          "return_20d_pct": -4.7,
-          "last_close": 1780.0,
+          "return_20d_pct": -4.68,
+          "last_close": 1780.4599609375,
           "last_date": "2026-07-17",
           "source": "yahoo",
           "status": "ok"
         },
         {
           "ticker": "ANET",
-          "return_20d_pct": 1.7,
-          "last_close": 167.73500061035156,
+          "return_20d_pct": 3.34,
+          "last_close": 170.44500732421875,
           "last_date": "2026-07-17",
           "source": "yahoo",
           "status": "ok"
         },
         {
           "ticker": "VRT",
-          "return_20d_pct": -7.22,
-          "last_close": 294.6400146484375,
+          "return_20d_pct": -7.0,
+          "last_close": 295.3450012207031,
           "last_date": "2026-07-17",
           "source": "yahoo",
           "status": "ok"
         },
         {
           "ticker": "SMCI",
-          "return_20d_pct": -12.29,
-          "last_close": 24.365100860595703,
+          "return_20d_pct": -9.88,
+          "last_close": 25.03499984741211,
           "last_date": "2026-07-17",
           "source": "yahoo",
           "status": "ok"
         },
         {
           "ticker": "LITE",
-          "return_20d_pct": -15.53,
-          "last_close": 734.907470703125,
+          "return_20d_pct": -14.85,
+          "last_close": 740.7999877929688,
           "last_date": "2026-07-17",
           "source": "yahoo",
           "status": "ok"
