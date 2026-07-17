@@ -1,28 +1,56 @@
 {
-  "generated_at": "2026-07-17T22:23:16Z",
+  "generated_at": "2026-07-17T23:01:08Z",
   "stale": true,
   "sources": {
     "tw_revenue": {
       "status": "stale",
-      "last_updated": "2026-07-17T21:22:01Z",
-      "source": "previous latest.json",
-      "missing": [],
+      "last_updated": "2026-07-17T23:00:57Z",
+      "source": "https://mopsfin.twse.com.tw/opendata/t187ap05_L.csv",
+      "success_count": 0,
+      "missing": [
+        "3037.TW",
+        "2383.TW",
+        "2454.TW",
+        "2330.TW",
+        "6669.TW",
+        "3711.TW",
+        "2308.TW",
+        "2345.TW",
+        "2376.TW",
+        "2356.TW"
+      ],
       "notes": [
-        "market-only update: fundamental component carried forward"
-      ]
+        "三個月平均 YoY 加速需要至少六個月觀測；資料不足時該項暫以中性 50 分處理。"
+      ],
+      "raw_snapshot": "data/raw/tw_revenue_latest.csv"
     },
     "sec_capex": {
-      "status": "stale",
-      "last_updated": "2026-07-17T21:22:01Z",
-      "source": "previous latest.json",
+      "status": "ok",
+      "last_updated": "2026-07-17T23:00:58Z",
+      "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK##########.json",
+      "success_count": 4,
       "missing": [],
-      "notes": [
-        "market-only update: fundamental component carried forward"
-      ]
+      "notes": [],
+      "coverage": 1.0,
+      "valid_companies": 4,
+      "expected_companies": 4,
+      "raw_capex_score": 100.0,
+      "tag_usage": {
+        "MSFT": "PaymentsToAcquirePropertyPlantAndEquipment",
+        "GOOGL": "PaymentsToAcquirePropertyPlantAndEquipment",
+        "META": "PaymentsToAcquirePropertyPlantAndEquipment",
+        "AMZN": "PaymentsToAcquireProductiveAssets"
+      },
+      "company_confidence": {
+        "MSFT": "high",
+        "GOOGL": "high",
+        "META": "high",
+        "AMZN": "high"
+      }
     },
     "market_prices": {
       "status": "ok",
-      "last_updated": "2026-07-17T22:23:10Z",
+      "last_updated": "2026-07-17T23:01:01Z",
       "source": "Stooq / Yahoo Finance chart / Nasdaq historical",
       "success_count": 10,
       "missing": [],
