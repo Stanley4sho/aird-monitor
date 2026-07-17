@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-17T19:40:23Z",
+  "generated_at": "2026-07-17T21:22:01Z",
   "stale": true,
   "sources": {
     "tw_revenue": {
       "status": "stale",
-      "last_updated": "2026-07-17T17:39:08Z",
+      "last_updated": "2026-07-17T19:40:23Z",
       "source": "previous latest.json",
       "missing": [],
       "notes": [
@@ -13,7 +13,7 @@
     },
     "sec_capex": {
       "status": "stale",
-      "last_updated": "2026-07-17T17:39:08Z",
+      "last_updated": "2026-07-17T19:40:23Z",
       "source": "previous latest.json",
       "missing": [],
       "notes": [
@@ -22,7 +22,7 @@
     },
     "market_prices": {
       "status": "ok",
-      "last_updated": "2026-07-17T19:40:17Z",
+      "last_updated": "2026-07-17T21:21:54Z",
       "source": "Stooq / Yahoo Finance chart / Nasdaq historical",
       "success_count": 10,
       "missing": [],
