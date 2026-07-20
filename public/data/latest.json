@@ -1,13 +1,13 @@
 {
-  "as_of": "2026-07-20T20:09:41Z",
-  "ai_rdm_score": 78.3,
-  "aird_m_score": 78.3,
+  "as_of": "2026-07-20T21:44:12Z",
+  "ai_rdm_score": 78.2,
+  "aird_m_score": 78.2,
   "status": "強擴張",
   "status_band": "strong_expansion",
   "subscores": {
     "supply_chain_revenue": 85.0,
     "hyperscaler_capex": 100.0,
-    "market_confirmation": 25.1
+    "market_confirmation": 25.0
   },
   "warnings": {
     "slowdown": false,
@@ -558,10 +558,10 @@
       ]
     },
     "market_confirmation": {
-      "score": 25.1,
-      "basket_return_20d_pct": -10.9,
+      "score": 25.0,
+      "basket_return_20d_pct": -10.91,
       "benchmark_return_20d_pct": -5.91,
-      "spread_pct": -4.99,
+      "spread_pct": -5.0,
       "benchmark": {
         "ticker": "QQQ",
         "return_20d_pct": -5.91,
@@ -605,8 +605,8 @@
         },
         {
           "ticker": "TSM",
-          "return_20d_pct": -12.89,
-          "last_close": 402.5350036621094,
+          "return_20d_pct": -12.94,
+          "last_close": 402.29998779296875,
           "last_date": "2026-07-20",
           "source": "yahoo",
           "status": "ok"
@@ -621,16 +621,16 @@
         },
         {
           "ticker": "ANET",
-          "return_20d_pct": -0.18,
-          "last_close": 169.3699951171875,
+          "return_20d_pct": -0.19,
+          "last_close": 169.35000610351562,
           "last_date": "2026-07-20",
           "source": "yahoo",
           "status": "ok"
         },
         {
           "ticker": "VRT",
-          "return_20d_pct": -12.39,
-          "last_close": 291.7749938964844,
+          "return_20d_pct": -12.42,
+          "last_close": 291.6700134277344,
           "last_date": "2026-07-20",
           "source": "yahoo",
           "status": "ok"
