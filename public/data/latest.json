@@ -1,13 +1,13 @@
 {
-  "as_of": "2026-07-21T16:02:41Z",
-  "ai_rdm_score": 77.9,
-  "aird_m_score": 77.9,
+  "as_of": "2026-07-21T17:54:55Z",
+  "ai_rdm_score": 77.2,
+  "aird_m_score": 77.2,
   "status": "強擴張",
   "status_band": "strong_expansion",
   "subscores": {
     "supply_chain_revenue": 85.0,
     "hyperscaler_capex": 100.0,
-    "market_confirmation": 23.3
+    "market_confirmation": 20.0
   },
   "warnings": {
     "slowdown": false,
@@ -17,7 +17,7 @@
   "source_status": {
     "tw_revenue": "stale",
     "sec_capex": "stale",
-    "market_prices": "ok"
+    "market_prices": "partial"
   },
   "stale": true,
   "stale_components": [
@@ -558,14 +558,14 @@
       ]
     },
     "market_confirmation": {
-      "score": 23.3,
-      "basket_return_20d_pct": -9.42,
-      "benchmark_return_20d_pct": -4.07,
-      "spread_pct": -5.35,
+      "score": 20.0,
+      "basket_return_20d_pct": -9.83,
+      "benchmark_return_20d_pct": -3.84,
+      "spread_pct": -5.99,
       "benchmark": {
         "ticker": "QQQ",
-        "return_20d_pct": -4.07,
-        "last_close": 707.9450073242188,
+        "return_20d_pct": -3.84,
+        "last_close": 709.5800170898438,
         "last_date": "2026-07-21",
         "source": "yahoo",
         "status": "ok"
@@ -573,80 +573,81 @@
       "tickers": [
         {
           "ticker": "NVDA",
-          "return_20d_pct": -1.31,
-          "last_close": 205.9196014404297,
+          "return_20d_pct": -1.06,
+          "last_close": 206.43499755859375,
           "last_date": "2026-07-21",
           "source": "yahoo",
           "status": "ok"
         },
         {
           "ticker": "AMD",
-          "return_20d_pct": -3.37,
-          "last_close": 533.0499877929688,
+          "return_20d_pct": -1.57,
+          "last_close": 542.9650268554688,
           "last_date": "2026-07-21",
           "source": "yahoo",
           "status": "ok"
         },
         {
           "ticker": "AVGO",
-          "return_20d_pct": -1.47,
-          "last_close": 386.3500061035156,
+          "return_20d_pct": -1.44,
+          "last_close": 386.4649963378906,
           "last_date": "2026-07-21",
           "source": "yahoo",
           "status": "ok"
         },
         {
           "ticker": "MU",
-          "return_20d_pct": -20.98,
-          "last_close": 957.0399780273438,
+          "return_20d_pct": -19.69,
+          "last_close": 972.6500244140625,
           "last_date": "2026-07-21",
           "source": "yahoo",
           "status": "ok"
         },
         {
           "ticker": "TSM",
-          "return_20d_pct": -10.13,
-          "last_close": 420.2900085449219,
+          "return_20d_pct": -9.35,
+          "last_close": 423.93499755859375,
           "last_date": "2026-07-21",
           "source": "yahoo",
           "status": "ok"
         },
         {
           "ticker": "ASML",
-          "return_20d_pct": -6.04,
-          "last_close": 1812.676025390625,
+          "return_20d_pct": -6.2,
+          "last_close": 1809.6099853515625,
           "last_date": "2026-07-21",
           "source": "yahoo",
           "status": "ok"
         },
         {
           "ticker": "ANET",
-          "return_20d_pct": 0.32,
-          "last_close": 175.11990356445312,
-          "last_date": "2026-07-21",
-          "source": "yahoo",
-          "status": "ok"
+          "return_20d_pct": null,
+          "last_close": null,
+          "last_date": null,
+          "source": null,
+          "status": "error",
+          "note": "stooq: unexpected response, not CSV; yahoo: 400 Client Error: Bad Request for url: https://query2.finance.yahoo.com/v8/finance/chart/ANET?range=4mo&interval=1d&events=history; nasdaq: HTTPSConnectionPool(host='api.nasdaq.com', port=443): Read timed out. (read timeout=30)"
         },
         {
           "ticker": "VRT",
-          "return_20d_pct": -14.99,
-          "last_close": 304.29998779296875,
+          "return_20d_pct": -14.6,
+          "last_close": 305.7099914550781,
           "last_date": "2026-07-21",
           "source": "yahoo",
           "status": "ok"
         },
         {
           "ticker": "SMCI",
-          "return_20d_pct": -28.91,
-          "last_close": 25.209999084472656,
+          "return_20d_pct": -28.65,
+          "last_close": 25.299999237060547,
           "last_date": "2026-07-21",
           "source": "yahoo",
           "status": "ok"
         },
         {
           "ticker": "LITE",
-          "return_20d_pct": -7.27,
-          "last_close": 828.9299926757812,
+          "return_20d_pct": -5.94,
+          "last_close": 840.8099975585938,
           "last_date": "2026-07-21",
           "source": "yahoo",
           "status": "ok"
