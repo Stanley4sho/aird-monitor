@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-23T21:35:42Z",
+  "as_of": "2026-07-23T23:07:42Z",
   "ai_rdm_score": 86.2,
   "aird_m_score": 86.2,
   "status": "強擴張",
@@ -15,15 +15,12 @@
   },
   "interpretation_for_00988a": "目前 AI 基建需求仍在擴張，對 00988A 的產業主軸偏正面，但仍需觀察市場價格是否過熱。",
   "source_status": {
-    "tw_revenue": "stale",
-    "sec_capex": "stale",
+    "tw_revenue": "ok",
+    "sec_capex": "ok",
     "market_prices": "ok"
   },
-  "stale": true,
-  "stale_components": [
-    "hyperscaler_capex",
-    "supply_chain_revenue"
-  ],
+  "stale": false,
+  "stale_components": [],
   "details": {
     "supply_chain_revenue": {
       "score": 85.0,
@@ -266,36 +263,17 @@
           "name": "Alphabet",
           "cik": "0001652044",
           "fiscal_year_end_month": 12,
-          "latest_quarter": "FY2026Q1",
+          "latest_quarter": "FY2026Q2",
           "fiscal_year": 2026,
-          "fiscal_quarter": 1,
-          "period_start": "2026-01-01",
-          "period_end": "2026-03-31",
-          "latest_capex_usd": 35674000000.0,
-          "yoy_growth_pct": 107.44,
-          "qoq_growth_pct": 28.09,
+          "fiscal_quarter": 2,
+          "period_start": "2026-04-01",
+          "period_end": "2026-06-30",
+          "latest_capex_usd": 44924000000.0,
+          "yoy_growth_pct": 100.14,
+          "qoq_growth_pct": 25.93,
           "source_tag": "PaymentsToAcquirePropertyPlantAndEquipment",
-          "confidence": "high",
+          "confidence": "medium",
           "recent_quarters": [
-            {
-              "fiscal_year": 2025,
-              "fiscal_quarter": 2,
-              "period_start": "2025-04-01",
-              "period_end": "2025-06-30",
-              "capex_usd": 22446000000.0,
-              "yoy_growth_pct": 70.23,
-              "qoq_growth_pct": 30.52,
-              "source_tag": "PaymentsToAcquirePropertyPlantAndEquipment",
-              "confidence": "medium",
-              "period_type": "derived_ytd",
-              "derived_from_ytd": true,
-              "derivation": "ytd_6m_minus_q1",
-              "filed": "2025-07-24",
-              "form": "10-Q",
-              "source_start": "2025-01-01",
-              "source_end": "2025-06-30",
-              "source_duration_days": 181
-            },
             {
               "fiscal_year": 2025,
               "fiscal_quarter": 3,
@@ -352,10 +330,29 @@
               "source_start": "2026-01-01",
               "source_end": "2026-03-31",
               "source_duration_days": 90
+            },
+            {
+              "fiscal_year": 2026,
+              "fiscal_quarter": 2,
+              "period_start": "2026-04-01",
+              "period_end": "2026-06-30",
+              "capex_usd": 44924000000.0,
+              "yoy_growth_pct": 100.14,
+              "qoq_growth_pct": 25.93,
+              "source_tag": "PaymentsToAcquirePropertyPlantAndEquipment",
+              "confidence": "medium",
+              "period_type": "derived_ytd",
+              "derived_from_ytd": true,
+              "derivation": "ytd_6m_minus_q1",
+              "filed": "2026-07-23",
+              "form": "10-Q",
+              "source_start": "2026-01-01",
+              "source_end": "2026-06-30",
+              "source_duration_days": 181
             }
           ],
           "positive_keyword_found": true,
-          "keyword_source": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000048/goog-20260331.htm",
+          "keyword_source": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000071/goog-20260630.htm",
           "status": "ok",
           "note": null
         },
