@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-23T23:07:42Z",
+  "generated_at": "2026-07-24T00:15:24Z",
   "stale": false,
   "sources": {
     "tw_revenue": {
       "status": "ok",
-      "last_updated": "2026-07-23T23:07:32Z",
+      "last_updated": "2026-07-24T00:15:13Z",
       "source": "https://mopsfin.twse.com.tw/opendata/t187ap05_L.csv",
       "success_count": 10,
       "missing": [],
@@ -15,7 +15,7 @@
     },
     "sec_capex": {
       "status": "ok",
-      "last_updated": "2026-07-23T23:07:34Z",
+      "last_updated": "2026-07-24T00:15:15Z",
       "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK##########.json",
       "success_count": 4,
       "missing": [],
@@ -39,7 +39,7 @@
     },
     "market_prices": {
       "status": "ok",
-      "last_updated": "2026-07-23T23:07:35Z",
+      "last_updated": "2026-07-24T00:15:17Z",
       "source": "Stooq / Yahoo Finance chart / Nasdaq historical",
       "success_count": 10,
       "missing": [],
