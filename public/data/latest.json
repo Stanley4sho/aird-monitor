@@ -1,13 +1,13 @@
 {
-  "as_of": "2026-07-25T00:57:52Z",
-  "ai_rdm_score": 82.4,
-  "aird_m_score": 82.4,
+  "as_of": "2026-07-25T23:05:32Z",
+  "ai_rdm_score": 80.5,
+  "aird_m_score": 80.5,
   "status": "強擴張",
   "status_band": "strong_expansion",
   "subscores": {
     "supply_chain_revenue": 85.0,
     "hyperscaler_capex": 100.0,
-    "market_confirmation": 45.7
+    "market_confirmation": 36.4
   },
   "warnings": {
     "slowdown": false,
@@ -555,15 +555,15 @@
       ]
     },
     "market_confirmation": {
-      "score": 45.7,
+      "score": 36.4,
       "basket_return_20d_pct": -5.36,
-      "benchmark_return_20d_pct": -4.49,
-      "spread_pct": -0.87,
+      "benchmark_return_20d_pct": -2.63,
+      "spread_pct": -2.73,
       "benchmark": {
         "ticker": "QQQ",
-        "return_20d_pct": -4.49,
-        "last_close": 684.22998046875,
-        "last_date": "2026-07-24",
+        "return_20d_pct": -2.63,
+        "last_close": 691.9600219726562,
+        "last_date": "2026-07-23",
         "source": "yahoo",
         "status": "ok"
       },
