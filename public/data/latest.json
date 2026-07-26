@@ -1,13 +1,13 @@
 {
-  "as_of": "2026-07-26T01:03:03Z",
-  "ai_rdm_score": 86.2,
-  "aird_m_score": 86.2,
+  "as_of": "2026-07-26T23:08:00Z",
+  "ai_rdm_score": 82.4,
+  "aird_m_score": 82.4,
   "status": "強擴張",
   "status_band": "strong_expansion",
   "subscores": {
     "supply_chain_revenue": 85.0,
     "hyperscaler_capex": 100.0,
-    "market_confirmation": 64.6
+    "market_confirmation": 45.7
   },
   "warnings": {
     "slowdown": false,
@@ -15,150 +15,138 @@
   },
   "interpretation_for_00988a": "目前 AI 基建需求仍在擴張，對 00988A 的產業主軸偏正面，但仍需觀察市場價格是否過熱。",
   "source_status": {
-    "tw_revenue": "stale",
+    "tw_revenue": "ok",
     "sec_capex": "ok",
     "market_prices": "ok"
   },
-  "stale": true,
-  "stale_components": [
-    "supply_chain_revenue"
-  ],
+  "stale": false,
+  "stale_components": [],
   "details": {
     "supply_chain_revenue": {
       "score": 85.0,
-      "median_yoy_growth_pct": null,
-      "yoy_positive_ratio": null,
+      "median_yoy_growth_pct": 58.3,
+      "yoy_positive_ratio": 1.0,
       "avg_3m_yoy_acceleration_ratio": null,
       "companies": [
         {
           "ticker": "3037.TW",
           "code": "3037",
           "name": "欣興",
-          "data_month": null,
-          "yoy_growth_pct": null,
-          "mom_growth_pct": null,
+          "data_month": "2026-06",
+          "yoy_growth_pct": 36.31065260526493,
+          "mom_growth_pct": 5.9534751595895665,
           "avg_3m_yoy_pct": null,
           "avg_3m_yoy_accelerating": null,
-          "revenue_current": null,
-          "status": "partial",
-          "note": "not found in monthly revenue csv"
+          "revenue_current": 14897030,
+          "status": "ok"
         },
         {
           "ticker": "2383.TW",
           "code": "2383",
           "name": "台光電",
-          "data_month": null,
-          "yoy_growth_pct": null,
-          "mom_growth_pct": null,
+          "data_month": "2026-06",
+          "yoy_growth_pct": 120.69324458952983,
+          "mom_growth_pct": 13.537677757207529,
           "avg_3m_yoy_pct": null,
           "avg_3m_yoy_accelerating": null,
-          "revenue_current": null,
-          "status": "partial",
-          "note": "not found in monthly revenue csv"
+          "revenue_current": 17732956,
+          "status": "ok"
         },
         {
           "ticker": "2454.TW",
           "code": "2454",
           "name": "聯發科",
-          "data_month": null,
-          "yoy_growth_pct": null,
-          "mom_growth_pct": null,
+          "data_month": "2026-06",
+          "yoy_growth_pct": 2.796444693846599,
+          "mom_growth_pct": 22.299452730204674,
           "avg_3m_yoy_pct": null,
           "avg_3m_yoy_accelerating": null,
-          "revenue_current": null,
-          "status": "partial",
-          "note": "not found in monthly revenue csv"
+          "revenue_current": 58011756,
+          "status": "ok"
         },
         {
           "ticker": "2330.TW",
           "code": "2330",
           "name": "台積電",
-          "data_month": null,
-          "yoy_growth_pct": null,
-          "mom_growth_pct": null,
+          "data_month": "2026-06",
+          "yoy_growth_pct": 67.86685548491262,
+          "mom_growth_pct": 6.164589232380731,
           "avg_3m_yoy_pct": null,
           "avg_3m_yoy_accelerating": null,
-          "revenue_current": null,
-          "status": "partial",
-          "note": "not found in monthly revenue csv"
+          "revenue_current": 442679969,
+          "status": "ok"
         },
         {
           "ticker": "6669.TW",
           "code": "6669",
           "name": "緯穎",
-          "data_month": null,
-          "yoy_growth_pct": null,
-          "mom_growth_pct": null,
+          "data_month": "2026-06",
+          "yoy_growth_pct": 29.790739162285384,
+          "mom_growth_pct": 32.50505205366304,
           "avg_3m_yoy_pct": null,
           "avg_3m_yoy_accelerating": null,
-          "revenue_current": null,
-          "status": "partial",
-          "note": "not found in monthly revenue csv"
+          "revenue_current": 111371123,
+          "status": "ok"
         },
         {
           "ticker": "3711.TW",
           "code": "3711",
           "name": "日月光投控",
-          "data_month": null,
-          "yoy_growth_pct": null,
-          "mom_growth_pct": null,
+          "data_month": "2026-06",
+          "yoy_growth_pct": 32.861279955266355,
+          "mom_growth_pct": 4.362437684340025,
           "avg_3m_yoy_pct": null,
           "avg_3m_yoy_accelerating": null,
-          "revenue_current": null,
-          "status": "partial",
-          "note": "not found in monthly revenue csv"
+          "revenue_current": 65783102,
+          "status": "ok"
         },
         {
           "ticker": "2308.TW",
           "code": "2308",
           "name": "台達電",
-          "data_month": null,
-          "yoy_growth_pct": null,
-          "mom_growth_pct": null,
+          "data_month": "2026-06",
+          "yoy_growth_pct": 55.42638489110967,
+          "mom_growth_pct": 11.262872038017417,
           "avg_3m_yoy_pct": null,
           "avg_3m_yoy_accelerating": null,
-          "revenue_current": null,
-          "status": "partial",
-          "note": "not found in monthly revenue csv"
+          "revenue_current": 65602611,
+          "status": "ok"
         },
         {
           "ticker": "2345.TW",
           "code": "2345",
           "name": "智邦",
-          "data_month": null,
-          "yoy_growth_pct": null,
-          "mom_growth_pct": null,
+          "data_month": "2026-06",
+          "yoy_growth_pct": 61.16410559844036,
+          "mom_growth_pct": 38.192072603216786,
           "avg_3m_yoy_pct": null,
           "avg_3m_yoy_accelerating": null,
-          "revenue_current": null,
-          "status": "partial",
-          "note": "not found in monthly revenue csv"
+          "revenue_current": 39554529,
+          "status": "ok"
         },
         {
           "ticker": "2376.TW",
           "code": "2376",
           "name": "技嘉",
-          "data_month": null,
-          "yoy_growth_pct": null,
-          "mom_growth_pct": null,
+          "data_month": "2026-06",
+          "yoy_growth_pct": 68.55140790315762,
+          "mom_growth_pct": -12.559784251756298,
           "avg_3m_yoy_pct": null,
           "avg_3m_yoy_accelerating": null,
-          "revenue_current": null,
-          "status": "partial",
-          "note": "not found in monthly revenue csv"
+          "revenue_current": 42892460,
+          "status": "ok"
         },
         {
           "ticker": "2356.TW",
           "code": "2356",
           "name": "英業達",
-          "data_month": null,
-          "yoy_growth_pct": null,
-          "mom_growth_pct": null,
+          "data_month": "2026-06",
+          "yoy_growth_pct": 61.617467920607254,
+          "mom_growth_pct": 23.493572742154385,
           "avg_3m_yoy_pct": null,
           "avg_3m_yoy_accelerating": null,
-          "revenue_current": null,
-          "status": "partial",
-          "note": "not found in monthly revenue csv"
+          "revenue_current": 102262391,
+          "status": "ok"
         }
       ]
     },
@@ -567,96 +555,96 @@
       ]
     },
     "market_confirmation": {
-      "score": 64.6,
-      "basket_return_20d_pct": 0.28,
-      "benchmark_return_20d_pct": -2.63,
-      "spread_pct": 2.91,
+      "score": 45.7,
+      "basket_return_20d_pct": -5.36,
+      "benchmark_return_20d_pct": -4.49,
+      "spread_pct": -0.87,
       "benchmark": {
         "ticker": "QQQ",
-        "return_20d_pct": -2.63,
-        "last_close": 691.9600219726562,
-        "last_date": "2026-07-23",
+        "return_20d_pct": -4.49,
+        "last_close": 684.22998046875,
+        "last_date": "2026-07-24",
         "source": "yahoo",
         "status": "ok"
       },
       "tickers": [
         {
           "ticker": "NVDA",
-          "return_20d_pct": 4.9,
-          "last_close": 208.75999450683594,
-          "last_date": "2026-07-23",
+          "return_20d_pct": 5.67,
+          "last_close": 206.83999633789062,
+          "last_date": "2026-07-24",
           "source": "yahoo",
           "status": "ok"
         },
         {
           "ticker": "AMD",
-          "return_20d_pct": 3.84,
-          "last_close": 539.6900024414062,
-          "last_date": "2026-07-23",
+          "return_20d_pct": -1.99,
+          "last_close": 521.9500122070312,
+          "last_date": "2026-07-24",
           "source": "yahoo",
           "status": "ok"
         },
         {
           "ticker": "AVGO",
-          "return_20d_pct": 2.72,
-          "last_close": 392.4700012207031,
-          "last_date": "2026-07-23",
+          "return_20d_pct": 0.79,
+          "last_close": 381.9200134277344,
+          "last_date": "2026-07-24",
           "source": "yahoo",
           "status": "ok"
         },
         {
           "ticker": "MU",
-          "return_20d_pct": -5.55,
-          "last_close": 990.2100219726562,
-          "last_date": "2026-07-23",
+          "return_20d_pct": -24.1,
+          "last_close": 920.9500122070312,
+          "last_date": "2026-07-24",
           "source": "yahoo",
           "status": "ok"
         },
         {
           "ticker": "TSM",
-          "return_20d_pct": -5.73,
-          "last_close": 415.5799865722656,
-          "last_date": "2026-07-23",
+          "return_20d_pct": -7.26,
+          "last_close": 403.4100036621094,
+          "last_date": "2026-07-24",
           "source": "yahoo",
           "status": "ok"
         },
         {
           "ticker": "ASML",
-          "return_20d_pct": 2.28,
-          "last_close": 1803.0,
-          "last_date": "2026-07-23",
+          "return_20d_pct": -4.57,
+          "last_close": 1757.0899658203125,
+          "last_date": "2026-07-24",
           "source": "yahoo",
           "status": "ok"
         },
         {
           "ticker": "ANET",
-          "return_20d_pct": 9.19,
-          "last_close": 176.61000061035156,
-          "last_date": "2026-07-23",
+          "return_20d_pct": 5.16,
+          "last_close": 173.99000549316406,
+          "last_date": "2026-07-24",
           "source": "yahoo",
           "status": "ok"
         },
         {
           "ticker": "VRT",
-          "return_20d_pct": -3.92,
-          "last_close": 304.0400085449219,
-          "last_date": "2026-07-23",
+          "return_20d_pct": -10.81,
+          "last_close": 290.3599853515625,
+          "last_date": "2026-07-24",
           "source": "yahoo",
           "status": "ok"
         },
         {
           "ticker": "SMCI",
-          "return_20d_pct": -3.85,
-          "last_close": 31.200000762939453,
-          "last_date": "2026-07-23",
+          "return_20d_pct": -4.99,
+          "last_close": 30.100000381469727,
+          "last_date": "2026-07-24",
           "source": "yahoo",
           "status": "ok"
         },
         {
           "ticker": "LITE",
-          "return_20d_pct": -1.06,
-          "last_close": 833.6400146484375,
-          "last_date": "2026-07-23",
+          "return_20d_pct": -11.48,
+          "last_close": 762.989990234375,
+          "last_date": "2026-07-24",
           "source": "yahoo",
           "status": "ok"
         }
