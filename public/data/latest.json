@@ -1,13 +1,13 @@
 {
-  "as_of": "2026-07-27T20:50:52Z",
-  "ai_rdm_score": 82.0,
-  "aird_m_score": 82.0,
+  "as_of": "2026-07-27T22:34:12Z",
+  "ai_rdm_score": 79.9,
+  "aird_m_score": 79.9,
   "status": "強擴張",
   "status_band": "strong_expansion",
   "subscores": {
     "supply_chain_revenue": 85.0,
     "hyperscaler_capex": 100.0,
-    "market_confirmation": 44.0
+    "market_confirmation": 33.2
   },
   "warnings": {
     "slowdown": false,
@@ -558,13 +558,13 @@
       ]
     },
     "market_confirmation": {
-      "score": 44.0,
-      "basket_return_20d_pct": -4.66,
-      "benchmark_return_20d_pct": -3.45,
-      "spread_pct": -1.21,
+      "score": 33.2,
+      "basket_return_20d_pct": -8.14,
+      "benchmark_return_20d_pct": -4.78,
+      "spread_pct": -3.36,
       "benchmark": {
         "ticker": "QQQ",
-        "return_20d_pct": -3.45,
+        "return_20d_pct": -4.78,
         "last_close": 682.1199951171875,
         "last_date": "2026-07-27",
         "source": "yahoo",
@@ -573,7 +573,7 @@
       "tickers": [
         {
           "ticker": "NVDA",
-          "return_20d_pct": 2.07,
+          "return_20d_pct": 0.39,
           "last_close": 196.50999450683594,
           "last_date": "2026-07-27",
           "source": "yahoo",
@@ -581,7 +581,7 @@
         },
         {
           "ticker": "AMD",
-          "return_20d_pct": -5.11,
+          "return_20d_pct": -7.06,
           "last_close": 494.95001220703125,
           "last_date": "2026-07-27",
           "source": "yahoo",
@@ -589,7 +589,7 @@
         },
         {
           "ticker": "AVGO",
-          "return_20d_pct": 4.99,
+          "return_20d_pct": 1.14,
           "last_close": 383.2200012207031,
           "last_date": "2026-07-27",
           "source": "yahoo",
@@ -597,7 +597,7 @@
         },
         {
           "ticker": "MU",
-          "return_20d_pct": -20.49,
+          "return_20d_pct": -25.81,
           "last_close": 900.2000122070312,
           "last_date": "2026-07-27",
           "source": "yahoo",
@@ -605,7 +605,7 @@
         },
         {
           "ticker": "TSM",
-          "return_20d_pct": -7.69,
+          "return_20d_pct": -8.25,
           "last_close": 399.0899963378906,
           "last_date": "2026-07-27",
           "source": "yahoo",
@@ -613,7 +613,7 @@
         },
         {
           "ticker": "ASML",
-          "return_20d_pct": -7.77,
+          "return_20d_pct": -10.1,
           "last_close": 1655.260009765625,
           "last_date": "2026-07-27",
           "source": "yahoo",
@@ -621,7 +621,7 @@
         },
         {
           "ticker": "ANET",
-          "return_20d_pct": 8.35,
+          "return_20d_pct": 3.21,
           "last_close": 170.75999450683594,
           "last_date": "2026-07-27",
           "source": "yahoo",
@@ -629,7 +629,7 @@
         },
         {
           "ticker": "VRT",
-          "return_20d_pct": -5.38,
+          "return_20d_pct": -11.66,
           "last_close": 287.6000061035156,
           "last_date": "2026-07-27",
           "source": "yahoo",
@@ -637,7 +637,7 @@
         },
         {
           "ticker": "SMCI",
-          "return_20d_pct": -2.68,
+          "return_20d_pct": -5.9,
           "last_close": 29.809999465942383,
           "last_date": "2026-07-27",
           "source": "yahoo",
@@ -645,7 +645,7 @@
         },
         {
           "ticker": "LITE",
-          "return_20d_pct": -12.85,
+          "return_20d_pct": -17.4,
           "last_close": 711.9600219726562,
           "last_date": "2026-07-27",
           "source": "yahoo",
