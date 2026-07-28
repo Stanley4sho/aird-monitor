@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-28T20:01:53Z",
+  "as_of": "2026-07-28T21:39:48Z",
   "ai_rdm_score": 79.8,
   "aird_m_score": 79.8,
   "status": "強擴張",
@@ -559,9 +559,9 @@
     },
     "market_confirmation": {
       "score": 32.7,
-      "basket_return_20d_pct": -10.17,
+      "basket_return_20d_pct": -10.16,
       "benchmark_return_20d_pct": -6.71,
-      "spread_pct": -3.46,
+      "spread_pct": -3.45,
       "benchmark": {
         "ticker": "QQQ",
         "return_20d_pct": -6.71,
@@ -606,7 +606,7 @@
         {
           "ticker": "TSM",
           "return_20d_pct": -13.8,
-          "last_close": 392.30010986328125,
+          "last_close": 392.30999755859375,
           "last_date": "2026-07-28",
           "source": "yahoo",
           "status": "ok"
@@ -629,8 +629,8 @@
         },
         {
           "ticker": "VRT",
-          "return_20d_pct": -12.22,
-          "last_close": 269.4599914550781,
+          "return_20d_pct": -12.19,
+          "last_close": 269.55999755859375,
           "last_date": "2026-07-28",
           "source": "yahoo",
           "status": "ok"
