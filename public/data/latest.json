@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-31T21:38:52Z",
+  "as_of": "2026-07-31T23:12:43Z",
   "ai_rdm_score": 83.5,
   "aird_m_score": 83.5,
   "status": "強擴張",
@@ -15,15 +15,12 @@
   },
   "interpretation_for_00988a": "目前 AI 基建需求仍在擴張，對 00988A 的產業主軸偏正面，但仍需觀察市場價格是否過熱。",
   "source_status": {
-    "tw_revenue": "stale",
-    "sec_capex": "stale",
+    "tw_revenue": "ok",
+    "sec_capex": "ok",
     "market_prices": "ok"
   },
-  "stale": true,
-  "stale_components": [
-    "hyperscaler_capex",
-    "supply_chain_revenue"
-  ],
+  "stale": false,
+  "stale_components": [],
   "details": {
     "supply_chain_revenue": {
       "score": 85.0,
@@ -159,7 +156,7 @@
       "coverage": 1.0,
       "valid_companies": 4,
       "expected_companies": 4,
-      "median_capex_yoy_growth_pct": 88.41,
+      "median_capex_yoy_growth_pct": 84.29,
       "capex_yoy_positive_ratio": 1.0,
       "positive_keyword_ratio": 1.0,
       "companies": [
@@ -462,36 +459,17 @@
           "name": "Amazon",
           "cik": "0001018724",
           "fiscal_year_end_month": 12,
-          "latest_quarter": "FY2026Q1",
+          "latest_quarter": "FY2026Q2",
           "fiscal_year": 2026,
-          "fiscal_quarter": 1,
-          "period_start": "2026-01-01",
-          "period_end": "2026-03-31",
-          "latest_capex_usd": 44203000000.0,
-          "yoy_growth_pct": 76.68,
-          "qoq_growth_pct": 11.84,
+          "fiscal_quarter": 2,
+          "period_start": "2026-04-01",
+          "period_end": "2026-06-30",
+          "latest_capex_usd": 54208000000.0,
+          "yoy_growth_pct": 68.44,
+          "qoq_growth_pct": 22.63,
           "source_tag": "PaymentsToAcquireProductiveAssets",
           "confidence": "high",
           "recent_quarters": [
-            {
-              "fiscal_year": 2025,
-              "fiscal_quarter": 2,
-              "period_start": "2025-04-01",
-              "period_end": "2025-06-30",
-              "capex_usd": 32183000000.0,
-              "yoy_growth_pct": 82.65,
-              "qoq_growth_pct": 28.63,
-              "source_tag": "PaymentsToAcquireProductiveAssets",
-              "confidence": "high",
-              "period_type": "quarter",
-              "derived_from_ytd": false,
-              "derivation": "direct",
-              "filed": "2025-08-01",
-              "form": "10-Q",
-              "source_start": "2025-04-01",
-              "source_end": "2025-06-30",
-              "source_duration_days": 91
-            },
             {
               "fiscal_year": 2025,
               "fiscal_quarter": 3,
@@ -548,10 +526,29 @@
               "source_start": "2026-01-01",
               "source_end": "2026-03-31",
               "source_duration_days": 90
+            },
+            {
+              "fiscal_year": 2026,
+              "fiscal_quarter": 2,
+              "period_start": "2026-04-01",
+              "period_end": "2026-06-30",
+              "capex_usd": 54208000000.0,
+              "yoy_growth_pct": 68.44,
+              "qoq_growth_pct": 22.63,
+              "source_tag": "PaymentsToAcquireProductiveAssets",
+              "confidence": "high",
+              "period_type": "quarter",
+              "derived_from_ytd": false,
+              "derivation": "direct",
+              "filed": "2026-07-31",
+              "form": "10-Q",
+              "source_start": "2026-04-01",
+              "source_end": "2026-06-30",
+              "source_duration_days": 91
             }
           ],
           "positive_keyword_found": true,
-          "keyword_source": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000014/amzn-20260331.htm",
+          "keyword_source": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000026/amzn-20260630.htm",
           "status": "ok",
           "note": null
         }
