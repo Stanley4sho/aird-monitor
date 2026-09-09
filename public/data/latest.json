@@ -1,13 +1,13 @@
 {
-  "as_of": "2026-09-09T17:55:27Z",
-  "ai_rdm_score": 88.5,
-  "aird_m_score": 88.5,
+  "as_of": "2026-09-09T21:05:42Z",
+  "ai_rdm_score": 88.1,
+  "aird_m_score": 88.1,
   "status": "強擴張",
   "status_band": "strong_expansion",
   "subscores": {
     "supply_chain_revenue": 83.4,
     "hyperscaler_capex": 100.0,
-    "market_confirmation": 80.0
+    "market_confirmation": 77.7
   },
   "warnings": {
     "slowdown": false,
@@ -558,14 +558,14 @@
       ]
     },
     "market_confirmation": {
-      "score": 80.0,
-      "basket_return_20d_pct": 5.77,
-      "benchmark_return_20d_pct": -0.22,
-      "spread_pct": 5.99,
+      "score": 77.7,
+      "basket_return_20d_pct": 5.24,
+      "benchmark_return_20d_pct": -0.3,
+      "spread_pct": 5.54,
       "benchmark": {
         "ticker": "QQQ",
-        "return_20d_pct": -0.22,
-        "last_close": 716.9000244140625,
+        "return_20d_pct": -0.3,
+        "last_close": 716.3099975585938,
         "last_date": "2026-09-09",
         "source": "yahoo",
         "status": "ok"
@@ -573,80 +573,80 @@
       "tickers": [
         {
           "ticker": "NVDA",
-          "return_20d_pct": 3.11,
-          "last_close": 224.27000427246094,
+          "return_20d_pct": 2.84,
+          "last_close": 223.6699981689453,
           "last_date": "2026-09-09",
           "source": "yahoo",
           "status": "ok"
         },
         {
           "ticker": "AMD",
-          "return_20d_pct": 10.52,
-          "last_close": 524.2349853515625,
+          "return_20d_pct": 9.86,
+          "last_close": 521.094970703125,
           "last_date": "2026-09-09",
           "source": "yahoo",
           "status": "ok"
         },
         {
           "ticker": "AVGO",
-          "return_20d_pct": -12.39,
-          "last_close": 364.5249938964844,
+          "return_20d_pct": -12.43,
+          "last_close": 364.3800048828125,
           "last_date": "2026-09-09",
           "source": "yahoo",
           "status": "ok"
         },
         {
           "ticker": "MU",
-          "return_20d_pct": 18.01,
-          "last_close": 1024.93994140625,
+          "return_20d_pct": 18.34,
+          "last_close": 1027.77001953125,
           "last_date": "2026-09-09",
           "source": "yahoo",
           "status": "ok"
         },
         {
           "ticker": "TSM",
-          "return_20d_pct": 2.86,
-          "last_close": 434.1300048828125,
+          "return_20d_pct": 3.15,
+          "last_close": 435.3599853515625,
           "last_date": "2026-09-09",
           "source": "yahoo",
           "status": "ok"
         },
         {
           "ticker": "ASML",
-          "return_20d_pct": -3.72,
-          "last_close": 1732.469970703125,
+          "return_20d_pct": -3.88,
+          "last_close": 1729.52001953125,
           "last_date": "2026-09-09",
           "source": "yahoo",
           "status": "ok"
         },
         {
           "ticker": "ANET",
-          "return_20d_pct": -2.07,
-          "last_close": 193.7449951171875,
+          "return_20d_pct": -2.49,
+          "last_close": 192.92999267578125,
           "last_date": "2026-09-09",
           "source": "yahoo",
           "status": "ok"
         },
         {
           "ticker": "VRT",
-          "return_20d_pct": -5.97,
-          "last_close": 264.989990234375,
+          "return_20d_pct": -6.71,
+          "last_close": 262.8900146484375,
           "last_date": "2026-09-09",
           "source": "yahoo",
           "status": "ok"
         },
         {
           "ticker": "SMCI",
-          "return_20d_pct": 24.4,
-          "last_close": 39.310001373291016,
+          "return_20d_pct": 23.2,
+          "last_close": 38.93000030517578,
           "last_date": "2026-09-09",
           "source": "yahoo",
           "status": "ok"
         },
         {
           "ticker": "LITE",
-          "return_20d_pct": 22.99,
-          "last_close": 1009.22998046875,
+          "return_20d_pct": 20.52,
+          "last_close": 988.97998046875,
           "last_date": "2026-09-09",
           "source": "yahoo",
           "status": "ok"
