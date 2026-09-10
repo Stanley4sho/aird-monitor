@@ -1,54 +1,28 @@
 {
-  "generated_at": "2026-09-10T01:12:08Z",
+  "generated_at": "2026-09-10T17:47:51Z",
   "stale": true,
   "sources": {
     "tw_revenue": {
       "status": "stale",
-      "last_updated": "2026-09-10T01:11:58Z",
-      "source": "https://mopsfin.twse.com.tw/opendata/t187ap05_L.csv",
-      "missing": [
-        "3037.TW",
-        "2383.TW",
-        "2454.TW",
-        "2330.TW",
-        "6669.TW",
-        "3711.TW",
-        "2308.TW",
-        "2345.TW",
-        "2376.TW",
-        "2356.TW"
-      ],
+      "last_updated": "2026-09-10T01:12:08Z",
+      "source": "previous latest.json",
+      "missing": [],
       "notes": [
-        "HTTPSConnectionPool(host='mopsfin.twse.com.tw', port=443): Max retries exceeded with url: /opendata/t187ap05_L.csv (Caused by NameResolutionError(\"HTTPSConnection(host='mopsfin.twse.com.tw', port=443): Failed to resolve 'mopsfin.twse.com.tw' ([Errno -2] Name or service not known)\"))"
+        "market-only update: fundamental component carried forward"
       ]
     },
     "sec_capex": {
-      "status": "ok",
-      "last_updated": "2026-09-10T01:11:58Z",
-      "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK##########.json",
-      "success_count": 4,
+      "status": "stale",
+      "last_updated": "2026-09-10T01:12:08Z",
+      "source": "previous latest.json",
       "missing": [],
-      "notes": [],
-      "coverage": 1.0,
-      "valid_companies": 4,
-      "expected_companies": 4,
-      "raw_capex_score": 100.0,
-      "tag_usage": {
-        "MSFT": "PaymentsToAcquirePropertyPlantAndEquipment",
-        "GOOGL": "PaymentsToAcquirePropertyPlantAndEquipment",
-        "META": "PaymentsToAcquirePropertyPlantAndEquipment",
-        "AMZN": "PaymentsToAcquireProductiveAssets"
-      },
-      "company_confidence": {
-        "MSFT": "medium",
-        "GOOGL": "medium",
-        "META": "medium",
-        "AMZN": "high"
-      }
+      "notes": [
+        "market-only update: fundamental component carried forward"
+      ]
     },
     "market_prices": {
       "status": "ok",
-      "last_updated": "2026-09-10T01:12:01Z",
+      "last_updated": "2026-09-10T17:47:45Z",
       "source": "Stooq / Yahoo Finance chart / Nasdaq historical",
       "success_count": 10,
       "missing": [],
