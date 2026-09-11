@@ -1,13 +1,13 @@
 {
-  "as_of": "2026-09-10T23:20:44Z",
-  "ai_rdm_score": 81.0,
-  "aird_m_score": 81.0,
+  "as_of": "2026-09-11T00:02:56Z",
+  "ai_rdm_score": 88.1,
+  "aird_m_score": 88.1,
   "status": "強擴張",
   "status_band": "strong_expansion",
   "subscores": {
     "supply_chain_revenue": 83.4,
     "hyperscaler_capex": 100.0,
-    "market_confirmation": 42.5
+    "market_confirmation": 77.7
   },
   "warnings": {
     "slowdown": false,
@@ -16,12 +16,11 @@
   "interpretation_for_00988a": "目前 AI 基建需求仍在擴張，對 00988A 的產業主軸偏正面，但仍需觀察市場價格是否過熱。",
   "source_status": {
     "tw_revenue": "stale",
-    "sec_capex": "stale",
+    "sec_capex": "ok",
     "market_prices": "ok"
   },
   "stale": true,
   "stale_components": [
-    "hyperscaler_capex",
     "supply_chain_revenue"
   ],
   "details": {
@@ -42,7 +41,7 @@
           "avg_3m_yoy_accelerating": null,
           "revenue_current": null,
           "status": "error",
-          "note": "fetch failed: HTTPSConnectionPool(host='mopsfin.twse.com.tw', port=443): Max retries exceeded with url: /opendata/t187ap05_L.csv (Caused by NameResolutionError(\"HTTPSConnection(host='mopsfin.twse.com.tw', port=443): Failed to resolve 'mopsfin.twse.com.tw' ([Errno -2] Name or service not known)\"))"
+          "note": "fetch failed: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
         },
         {
           "ticker": "2383.TW",
@@ -55,7 +54,7 @@
           "avg_3m_yoy_accelerating": null,
           "revenue_current": null,
           "status": "error",
-          "note": "fetch failed: HTTPSConnectionPool(host='mopsfin.twse.com.tw', port=443): Max retries exceeded with url: /opendata/t187ap05_L.csv (Caused by NameResolutionError(\"HTTPSConnection(host='mopsfin.twse.com.tw', port=443): Failed to resolve 'mopsfin.twse.com.tw' ([Errno -2] Name or service not known)\"))"
+          "note": "fetch failed: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
         },
         {
           "ticker": "2454.TW",
@@ -68,7 +67,7 @@
           "avg_3m_yoy_accelerating": null,
           "revenue_current": null,
           "status": "error",
-          "note": "fetch failed: HTTPSConnectionPool(host='mopsfin.twse.com.tw', port=443): Max retries exceeded with url: /opendata/t187ap05_L.csv (Caused by NameResolutionError(\"HTTPSConnection(host='mopsfin.twse.com.tw', port=443): Failed to resolve 'mopsfin.twse.com.tw' ([Errno -2] Name or service not known)\"))"
+          "note": "fetch failed: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
         },
         {
           "ticker": "2330.TW",
@@ -81,7 +80,7 @@
           "avg_3m_yoy_accelerating": null,
           "revenue_current": null,
           "status": "error",
-          "note": "fetch failed: HTTPSConnectionPool(host='mopsfin.twse.com.tw', port=443): Max retries exceeded with url: /opendata/t187ap05_L.csv (Caused by NameResolutionError(\"HTTPSConnection(host='mopsfin.twse.com.tw', port=443): Failed to resolve 'mopsfin.twse.com.tw' ([Errno -2] Name or service not known)\"))"
+          "note": "fetch failed: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
         },
         {
           "ticker": "6669.TW",
@@ -94,7 +93,7 @@
           "avg_3m_yoy_accelerating": null,
           "revenue_current": null,
           "status": "error",
-          "note": "fetch failed: HTTPSConnectionPool(host='mopsfin.twse.com.tw', port=443): Max retries exceeded with url: /opendata/t187ap05_L.csv (Caused by NameResolutionError(\"HTTPSConnection(host='mopsfin.twse.com.tw', port=443): Failed to resolve 'mopsfin.twse.com.tw' ([Errno -2] Name or service not known)\"))"
+          "note": "fetch failed: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
         },
         {
           "ticker": "3711.TW",
@@ -107,7 +106,7 @@
           "avg_3m_yoy_accelerating": null,
           "revenue_current": null,
           "status": "error",
-          "note": "fetch failed: HTTPSConnectionPool(host='mopsfin.twse.com.tw', port=443): Max retries exceeded with url: /opendata/t187ap05_L.csv (Caused by NameResolutionError(\"HTTPSConnection(host='mopsfin.twse.com.tw', port=443): Failed to resolve 'mopsfin.twse.com.tw' ([Errno -2] Name or service not known)\"))"
+          "note": "fetch failed: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
         },
         {
           "ticker": "2308.TW",
@@ -120,7 +119,7 @@
           "avg_3m_yoy_accelerating": null,
           "revenue_current": null,
           "status": "error",
-          "note": "fetch failed: HTTPSConnectionPool(host='mopsfin.twse.com.tw', port=443): Max retries exceeded with url: /opendata/t187ap05_L.csv (Caused by NameResolutionError(\"HTTPSConnection(host='mopsfin.twse.com.tw', port=443): Failed to resolve 'mopsfin.twse.com.tw' ([Errno -2] Name or service not known)\"))"
+          "note": "fetch failed: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
         },
         {
           "ticker": "2345.TW",
@@ -133,7 +132,7 @@
           "avg_3m_yoy_accelerating": null,
           "revenue_current": null,
           "status": "error",
-          "note": "fetch failed: HTTPSConnectionPool(host='mopsfin.twse.com.tw', port=443): Max retries exceeded with url: /opendata/t187ap05_L.csv (Caused by NameResolutionError(\"HTTPSConnection(host='mopsfin.twse.com.tw', port=443): Failed to resolve 'mopsfin.twse.com.tw' ([Errno -2] Name or service not known)\"))"
+          "note": "fetch failed: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
         },
         {
           "ticker": "2376.TW",
@@ -146,7 +145,7 @@
           "avg_3m_yoy_accelerating": null,
           "revenue_current": null,
           "status": "error",
-          "note": "fetch failed: HTTPSConnectionPool(host='mopsfin.twse.com.tw', port=443): Max retries exceeded with url: /opendata/t187ap05_L.csv (Caused by NameResolutionError(\"HTTPSConnection(host='mopsfin.twse.com.tw', port=443): Failed to resolve 'mopsfin.twse.com.tw' ([Errno -2] Name or service not known)\"))"
+          "note": "fetch failed: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
         },
         {
           "ticker": "2356.TW",
@@ -159,7 +158,7 @@
           "avg_3m_yoy_accelerating": null,
           "revenue_current": null,
           "status": "error",
-          "note": "fetch failed: HTTPSConnectionPool(host='mopsfin.twse.com.tw', port=443): Max retries exceeded with url: /opendata/t187ap05_L.csv (Caused by NameResolutionError(\"HTTPSConnection(host='mopsfin.twse.com.tw', port=443): Failed to resolve 'mopsfin.twse.com.tw' ([Errno -2] Name or service not known)\"))"
+          "note": "fetch failed: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
         }
       ]
     },
@@ -568,96 +567,96 @@
       ]
     },
     "market_confirmation": {
-      "score": 42.5,
-      "basket_return_20d_pct": -3.58,
-      "benchmark_return_20d_pct": -2.07,
-      "spread_pct": -1.51,
+      "score": 77.7,
+      "basket_return_20d_pct": 5.24,
+      "benchmark_return_20d_pct": -0.3,
+      "spread_pct": 5.54,
       "benchmark": {
         "ticker": "QQQ",
-        "return_20d_pct": -2.07,
-        "last_close": 708.6900024414062,
-        "last_date": "2026-09-10",
+        "return_20d_pct": -0.3,
+        "last_close": 716.3099975585938,
+        "last_date": "2026-09-09",
         "source": "yahoo",
         "status": "ok"
       },
       "tickers": [
         {
           "ticker": "NVDA",
-          "return_20d_pct": -2.56,
-          "last_close": 218.36000061035156,
-          "last_date": "2026-09-10",
+          "return_20d_pct": 2.84,
+          "last_close": 223.6699981689453,
+          "last_date": "2026-09-09",
           "source": "yahoo",
           "status": "ok"
         },
         {
           "ticker": "AMD",
-          "return_20d_pct": 4.28,
-          "last_close": 503.6000061035156,
-          "last_date": "2026-09-10",
+          "return_20d_pct": 9.86,
+          "last_close": 521.0999755859375,
+          "last_date": "2026-09-09",
           "source": "yahoo",
           "status": "ok"
         },
         {
           "ticker": "AVGO",
-          "return_20d_pct": -13.27,
-          "last_close": 360.8299865722656,
-          "last_date": "2026-09-10",
+          "return_20d_pct": -12.43,
+          "last_close": 364.3800048828125,
+          "last_date": "2026-09-09",
           "source": "yahoo",
           "status": "ok"
         },
         {
           "ticker": "MU",
-          "return_20d_pct": 7.26,
-          "last_close": 977.4099731445312,
-          "last_date": "2026-09-10",
+          "return_20d_pct": 18.34,
+          "last_close": 1027.77001953125,
+          "last_date": "2026-09-09",
           "source": "yahoo",
           "status": "ok"
         },
         {
           "ticker": "TSM",
-          "return_20d_pct": -0.26,
-          "last_close": 428.0299987792969,
-          "last_date": "2026-09-10",
+          "return_20d_pct": 3.15,
+          "last_close": 435.3599853515625,
+          "last_date": "2026-09-09",
           "source": "yahoo",
           "status": "ok"
         },
         {
           "ticker": "ASML",
-          "return_20d_pct": -6.78,
-          "last_close": 1687.4300537109375,
-          "last_date": "2026-09-10",
+          "return_20d_pct": -3.88,
+          "last_close": 1729.52001953125,
+          "last_date": "2026-09-09",
           "source": "yahoo",
           "status": "ok"
         },
         {
           "ticker": "ANET",
-          "return_20d_pct": -10.22,
-          "last_close": 188.99000549316406,
-          "last_date": "2026-09-10",
+          "return_20d_pct": -2.49,
+          "last_close": 192.92999267578125,
+          "last_date": "2026-09-09",
           "source": "yahoo",
           "status": "ok"
         },
         {
           "ticker": "VRT",
-          "return_20d_pct": -13.95,
-          "last_close": 248.1300048828125,
-          "last_date": "2026-09-10",
+          "return_20d_pct": -6.71,
+          "last_close": 262.8900146484375,
+          "last_date": "2026-09-09",
           "source": "yahoo",
           "status": "ok"
         },
         {
           "ticker": "SMCI",
-          "return_20d_pct": -0.61,
-          "last_close": 37.380001068115234,
-          "last_date": "2026-09-10",
+          "return_20d_pct": 23.2,
+          "last_close": 38.93000030517578,
+          "last_date": "2026-09-09",
           "source": "yahoo",
           "status": "ok"
         },
         {
           "ticker": "LITE",
-          "return_20d_pct": 0.35,
-          "last_close": 935.7000122070312,
-          "last_date": "2026-09-10",
+          "return_20d_pct": 20.52,
+          "last_close": 988.97998046875,
+          "last_date": "2026-09-09",
           "source": "yahoo",
           "status": "ok"
         }
