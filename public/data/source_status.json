@@ -1,30 +1,21 @@
 {
-  "generated_at": "2026-09-11T00:02:56Z",
-  "stale": true,
+  "generated_at": "2026-09-11T01:13:40Z",
+  "stale": false,
   "sources": {
     "tw_revenue": {
-      "status": "stale",
-      "last_updated": "2026-09-11T00:02:46Z",
+      "status": "ok",
+      "last_updated": "2026-09-11T01:13:31Z",
       "source": "https://mopsfin.twse.com.tw/opendata/t187ap05_L.csv",
-      "missing": [
-        "3037.TW",
-        "2383.TW",
-        "2454.TW",
-        "2330.TW",
-        "6669.TW",
-        "3711.TW",
-        "2308.TW",
-        "2345.TW",
-        "2376.TW",
-        "2356.TW"
-      ],
+      "success_count": 10,
+      "missing": [],
       "notes": [
-        "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
-      ]
+        "三個月平均 YoY 加速需要至少六個月觀測；資料不足時該項暫以中性 50 分處理。"
+      ],
+      "raw_snapshot": "data/raw/tw_revenue_latest.csv"
     },
     "sec_capex": {
       "status": "ok",
-      "last_updated": "2026-09-11T00:02:46Z",
+      "last_updated": "2026-09-11T01:13:33Z",
       "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK##########.json",
       "success_count": 4,
       "missing": [],
@@ -48,7 +39,7 @@
     },
     "market_prices": {
       "status": "ok",
-      "last_updated": "2026-09-11T00:02:49Z",
+      "last_updated": "2026-09-11T01:13:35Z",
       "source": "Stooq / Yahoo Finance chart / Nasdaq historical",
       "success_count": 10,
       "missing": [],
