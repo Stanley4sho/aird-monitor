@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-09-15T00:30:53Z",
+  "as_of": "2026-09-15T01:35:54Z",
   "ai_rdm_score": 83.7,
   "aird_m_score": 83.7,
   "status": "強擴張",
@@ -627,7 +627,7 @@
         {
           "ticker": "VRT",
           "return_20d_pct": -10.45,
-          "last_close": 257.05999755859375,
+          "last_close": 256.9969787597656,
           "last_date": "2026-09-11",
           "source": "yahoo",
           "status": "ok"
