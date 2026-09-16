@@ -1,13 +1,13 @@
 {
-  "as_of": "2026-09-16T18:19:32Z",
-  "ai_rdm_score": 82.4,
-  "aird_m_score": 82.4,
+  "as_of": "2026-09-16T21:33:16Z",
+  "ai_rdm_score": 82.5,
+  "aird_m_score": 82.5,
   "status": "強擴張",
   "status_band": "strong_expansion",
   "subscores": {
     "supply_chain_revenue": 85.0,
     "hyperscaler_capex": 100.0,
-    "market_confirmation": 45.8
+    "market_confirmation": 46.3
   },
   "warnings": {
     "slowdown": false,
@@ -568,14 +568,14 @@
       ]
     },
     "market_confirmation": {
-      "score": 45.8,
-      "basket_return_20d_pct": -1.91,
-      "benchmark_return_20d_pct": -1.08,
-      "spread_pct": -0.83,
+      "score": 46.3,
+      "basket_return_20d_pct": -2.51,
+      "benchmark_return_20d_pct": -1.78,
+      "spread_pct": -0.73,
       "benchmark": {
         "ticker": "QQQ",
-        "return_20d_pct": -1.08,
-        "last_close": 709.7794189453125,
+        "return_20d_pct": -1.78,
+        "last_close": 704.719970703125,
         "last_date": "2026-09-16",
         "source": "yahoo",
         "status": "ok"
@@ -583,80 +583,80 @@
       "tickers": [
         {
           "ticker": "NVDA",
-          "return_20d_pct": -1.73,
-          "last_close": 215.6999969482422,
+          "return_20d_pct": -2.55,
+          "last_close": 213.89999389648438,
           "last_date": "2026-09-16",
           "source": "yahoo",
           "status": "ok"
         },
         {
           "ticker": "AMD",
-          "return_20d_pct": 7.5,
-          "last_close": 520.7349853515625,
+          "return_20d_pct": 5.8,
+          "last_close": 512.5,
           "last_date": "2026-09-16",
           "source": "yahoo",
           "status": "ok"
         },
         {
           "ticker": "AVGO",
-          "return_20d_pct": -10.46,
-          "last_close": 340.2471008300781,
+          "return_20d_pct": -10.66,
+          "last_close": 339.510009765625,
           "last_date": "2026-09-16",
           "source": "yahoo",
           "status": "ok"
         },
         {
           "ticker": "MU",
-          "return_20d_pct": -1.25,
-          "last_close": 929.02001953125,
+          "return_20d_pct": -1.51,
+          "last_close": 926.5499877929688,
           "last_date": "2026-09-16",
           "source": "yahoo",
           "status": "ok"
         },
         {
           "ticker": "TSM",
-          "return_20d_pct": 1.18,
-          "last_close": 418.2699890136719,
+          "return_20d_pct": 1.04,
+          "last_close": 417.7200012207031,
           "last_date": "2026-09-16",
           "source": "yahoo",
           "status": "ok"
         },
         {
           "ticker": "ASML",
-          "return_20d_pct": -11.16,
-          "last_close": 1601.8499755859375,
+          "return_20d_pct": -11.13,
+          "last_close": 1602.219970703125,
           "last_date": "2026-09-16",
           "source": "yahoo",
           "status": "ok"
         },
         {
           "ticker": "ANET",
-          "return_20d_pct": 3.39,
-          "last_close": 199.72500610351562,
+          "return_20d_pct": 2.26,
+          "last_close": 197.5399932861328,
           "last_date": "2026-09-16",
           "source": "yahoo",
           "status": "ok"
         },
         {
           "ticker": "VRT",
-          "return_20d_pct": -10.67,
-          "last_close": 243.39999389648438,
+          "return_20d_pct": -12.13,
+          "last_close": 239.41000366210938,
           "last_date": "2026-09-16",
           "source": "yahoo",
           "status": "ok"
         },
         {
           "ticker": "SMCI",
-          "return_20d_pct": -1.69,
-          "last_close": 36.777099609375,
+          "return_20d_pct": -1.5,
+          "last_close": 36.849998474121094,
           "last_date": "2026-09-16",
           "source": "yahoo",
           "status": "ok"
         },
         {
           "ticker": "LITE",
-          "return_20d_pct": 5.78,
-          "last_close": 923.7736206054688,
+          "return_20d_pct": 5.28,
+          "last_close": 919.4000244140625,
           "last_date": "2026-09-16",
           "source": "yahoo",
           "status": "ok"
