@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-09-19T01:18:17Z",
+  "as_of": "2026-09-20T00:05:39Z",
   "ai_rdm_score": 85.8,
   "aird_m_score": 85.8,
   "status": "強擴張",
@@ -7,7 +7,7 @@
   "subscores": {
     "supply_chain_revenue": 85.0,
     "hyperscaler_capex": 100.0,
-    "market_confirmation": 62.5
+    "market_confirmation": 63.0
   },
   "warnings": {
     "slowdown": false,
@@ -555,10 +555,10 @@
       ]
     },
     "market_confirmation": {
-      "score": 62.5,
-      "basket_return_20d_pct": 3.98,
+      "score": 63.0,
+      "basket_return_20d_pct": 4.08,
       "benchmark_return_20d_pct": 1.48,
-      "spread_pct": 2.5,
+      "spread_pct": 2.6,
       "benchmark": {
         "ticker": "QQQ",
         "return_20d_pct": 1.48,
@@ -618,17 +618,17 @@
         },
         {
           "ticker": "ANET",
-          "return_20d_pct": 7.02,
-          "last_close": 199.52999877929688,
-          "last_date": "2026-09-17",
+          "return_20d_pct": 8.51,
+          "last_close": 199.38999938964844,
+          "last_date": "2026-09-18",
           "source": "yahoo",
           "status": "ok"
         },
         {
           "ticker": "VRT",
-          "return_20d_pct": -7.45,
-          "last_close": 241.49000549316406,
-          "last_date": "2026-09-17",
+          "return_20d_pct": -5.74,
+          "last_close": 249.38999938964844,
+          "last_date": "2026-09-18",
           "source": "yahoo",
           "status": "ok"
         },
@@ -642,9 +642,9 @@
         },
         {
           "ticker": "LITE",
-          "return_20d_pct": 7.98,
-          "last_close": 893.6099853515625,
-          "last_date": "2026-09-17",
+          "return_20d_pct": 5.87,
+          "last_close": 930.9099731445312,
+          "last_date": "2026-09-18",
           "source": "yahoo",
           "status": "ok"
         }
