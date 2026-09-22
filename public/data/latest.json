@@ -1,13 +1,13 @@
 {
-  "as_of": "2026-09-22T18:13:09Z",
-  "ai_rdm_score": 89.1,
-  "aird_m_score": 89.1,
+  "as_of": "2026-09-22T21:34:43Z",
+  "ai_rdm_score": 89.3,
+  "aird_m_score": 89.3,
   "status": "強擴張",
   "status_band": "strong_expansion",
   "subscores": {
     "supply_chain_revenue": 85.0,
     "hyperscaler_capex": 100.0,
-    "market_confirmation": 79.1
+    "market_confirmation": 80.4
   },
   "warnings": {
     "slowdown": false,
@@ -558,14 +558,14 @@
       ]
     },
     "market_confirmation": {
-      "score": 79.1,
-      "basket_return_20d_pct": 11.56,
-      "benchmark_return_20d_pct": 5.75,
-      "spread_pct": 5.81,
+      "score": 80.4,
+      "basket_return_20d_pct": 12.01,
+      "benchmark_return_20d_pct": 5.93,
+      "spread_pct": 6.08,
       "benchmark": {
         "ticker": "QQQ",
-        "return_20d_pct": 5.75,
-        "last_close": 746.1840209960938,
+        "return_20d_pct": 5.93,
+        "last_close": 747.4600219726562,
         "last_date": "2026-09-22",
         "source": "yahoo",
         "status": "ok"
@@ -573,80 +573,80 @@
       "tickers": [
         {
           "ticker": "NVDA",
-          "return_20d_pct": 10.11,
-          "last_close": 229.29989624023438,
+          "return_20d_pct": 9.9,
+          "last_close": 228.8699951171875,
           "last_date": "2026-09-22",
           "source": "yahoo",
           "status": "ok"
         },
         {
           "ticker": "AMD",
-          "return_20d_pct": 35.89,
-          "last_close": 620.6950073242188,
+          "return_20d_pct": 36.57,
+          "last_close": 623.77001953125,
           "last_date": "2026-09-22",
           "source": "yahoo",
           "status": "ok"
         },
         {
           "ticker": "AVGO",
-          "return_20d_pct": 1.72,
-          "last_close": 364.2513122558594,
+          "return_20d_pct": 1.8,
+          "last_close": 364.5400085449219,
           "last_date": "2026-09-22",
           "source": "yahoo",
           "status": "ok"
         },
         {
           "ticker": "MU",
-          "return_20d_pct": 19.17,
-          "last_close": 1085.0,
+          "return_20d_pct": 20.4,
+          "last_close": 1096.1600341796875,
           "last_date": "2026-09-22",
           "source": "yahoo",
           "status": "ok"
         },
         {
           "ticker": "TSM",
-          "return_20d_pct": 9.92,
-          "last_close": 449.6000061035156,
+          "return_20d_pct": 10.51,
+          "last_close": 452.0,
           "last_date": "2026-09-22",
           "source": "yahoo",
           "status": "ok"
         },
         {
           "ticker": "ASML",
-          "return_20d_pct": -0.24,
-          "last_close": 1736.0,
+          "return_20d_pct": 0.45,
+          "last_close": 1747.9000244140625,
           "last_date": "2026-09-22",
           "source": "yahoo",
           "status": "ok"
         },
         {
           "ticker": "ANET",
-          "return_20d_pct": 8.2,
-          "last_close": 203.57000732421875,
+          "return_20d_pct": 9.06,
+          "last_close": 205.19000244140625,
           "last_date": "2026-09-22",
           "source": "yahoo",
           "status": "ok"
         },
         {
           "ticker": "VRT",
-          "return_20d_pct": -0.55,
-          "last_close": 253.51499938964844,
+          "return_20d_pct": -0.57,
+          "last_close": 253.4600067138672,
           "last_date": "2026-09-22",
           "source": "yahoo",
           "status": "ok"
         },
         {
           "ticker": "SMCI",
-          "return_20d_pct": 16.88,
-          "last_close": 41.108001708984375,
+          "return_20d_pct": 18.11,
+          "last_close": 41.540000915527344,
           "last_date": "2026-09-22",
           "source": "yahoo",
           "status": "ok"
         },
         {
           "ticker": "LITE",
-          "return_20d_pct": 14.52,
-          "last_close": 950.6900024414062,
+          "return_20d_pct": 13.91,
+          "last_close": 945.6699829101562,
           "last_date": "2026-09-22",
           "source": "yahoo",
           "status": "ok"
