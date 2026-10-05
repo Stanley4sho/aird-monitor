@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-04T02:46:28Z",
+  "generated_at": "2026-10-05T00:59:32Z",
   "stale": true,
   "sources": {
     "tw_revenue": {
       "status": "stale",
-      "last_updated": "2026-10-04T02:45:48Z",
+      "last_updated": "2026-10-05T00:48:24Z",
       "source": "https://mopsfin.twse.com.tw/opendata/t187ap05_L.csv",
       "missing": [
         "3037.TW",
@@ -19,12 +19,12 @@
         "2356.TW"
       ],
       "notes": [
-        "HTTPSConnectionPool(host='mopsfin.twse.com.tw', port=443): Read timed out. (read timeout=30)"
+        "HTTPSConnectionPool(host='mopsfin.twse.com.tw', port=443): Max retries exceeded with url: /opendata/t187ap05_L.csv (Caused by NameResolutionError(\"HTTPSConnection(host='mopsfin.twse.com.tw', port=443): Failed to resolve 'mopsfin.twse.com.tw' ([Errno -2] Name or service not known)\"))"
       ]
     },
     "sec_capex": {
       "status": "ok",
-      "last_updated": "2026-10-04T02:46:19Z",
+      "last_updated": "2026-10-05T00:48:24Z",
       "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK##########.json",
       "success_count": 4,
       "missing": [],
@@ -48,7 +48,7 @@
     },
     "market_prices": {
       "status": "ok",
-      "last_updated": "2026-10-04T02:46:22Z",
+      "last_updated": "2026-10-05T00:48:27Z",
       "source": "Stooq / Yahoo Finance chart / Nasdaq historical",
       "success_count": 10,
       "missing": [],
