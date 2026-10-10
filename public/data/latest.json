@@ -1,13 +1,13 @@
 {
-  "as_of": "2026-10-09T19:38:43Z",
-  "ai_rdm_score": 84.5,
-  "aird_m_score": 84.5,
+  "as_of": "2026-10-10T00:13:36Z",
+  "ai_rdm_score": 86.0,
+  "aird_m_score": 86.0,
   "status": "強擴張",
   "status_band": "strong_expansion",
   "subscores": {
     "supply_chain_revenue": 85.0,
     "hyperscaler_capex": 100.0,
-    "market_confirmation": 56.3
+    "market_confirmation": 63.7
   },
   "warnings": {
     "slowdown": false,
@@ -558,96 +558,96 @@
       ]
     },
     "market_confirmation": {
-      "score": 56.3,
-      "basket_return_20d_pct": 6.42,
-      "benchmark_return_20d_pct": 5.16,
-      "spread_pct": 1.26,
+      "score": 63.7,
+      "basket_return_20d_pct": 8.33,
+      "benchmark_return_20d_pct": 5.6,
+      "spread_pct": 2.73,
       "benchmark": {
         "ticker": "QQQ",
-        "return_20d_pct": 5.16,
-        "last_close": 750.9500122070312,
-        "last_date": "2026-10-09",
+        "return_20d_pct": 5.6,
+        "last_close": 747.5800170898438,
+        "last_date": "2026-10-08",
         "source": "yahoo",
         "status": "ok"
       },
       "tickers": [
         {
           "ticker": "NVDA",
-          "return_20d_pct": 5.23,
-          "last_close": 229.70309448242188,
-          "last_date": "2026-10-09",
+          "return_20d_pct": 5.55,
+          "last_close": 230.47999572753906,
+          "last_date": "2026-10-08",
           "source": "yahoo",
           "status": "ok"
         },
         {
           "ticker": "AMD",
-          "return_20d_pct": 17.71,
-          "last_close": 607.530029296875,
-          "last_date": "2026-10-09",
+          "return_20d_pct": 23.25,
+          "last_close": 620.6799926757812,
+          "last_date": "2026-10-08",
           "source": "yahoo",
           "status": "ok"
         },
         {
           "ticker": "AVGO",
-          "return_20d_pct": 0.11,
-          "last_close": 361.739990234375,
-          "last_date": "2026-10-09",
+          "return_20d_pct": -0.01,
+          "last_close": 360.1400146484375,
+          "last_date": "2026-10-08",
           "source": "yahoo",
           "status": "ok"
         },
         {
           "ticker": "MU",
-          "return_20d_pct": 5.01,
-          "last_close": 1024.1650390625,
-          "last_date": "2026-10-09",
+          "return_20d_pct": 5.98,
+          "last_close": 1035.8399658203125,
+          "last_date": "2026-10-08",
           "source": "yahoo",
           "status": "ok"
         },
         {
           "ticker": "TSM",
-          "return_20d_pct": 4.64,
-          "last_close": 452.1499938964844,
-          "last_date": "2026-10-09",
+          "return_20d_pct": 7.29,
+          "last_close": 457.989990234375,
+          "last_date": "2026-10-08",
           "source": "yahoo",
           "status": "ok"
         },
         {
           "ticker": "ASML",
-          "return_20d_pct": 5.08,
-          "last_close": 1784.5693359375,
-          "last_date": "2026-10-09",
+          "return_20d_pct": 4.88,
+          "last_close": 1769.7900390625,
+          "last_date": "2026-10-08",
           "source": "yahoo",
           "status": "ok"
         },
         {
           "ticker": "ANET",
-          "return_20d_pct": 8.55,
-          "last_close": 216.64999389648438,
-          "last_date": "2026-10-09",
+          "return_20d_pct": 11.63,
+          "last_close": 210.97000122070312,
+          "last_date": "2026-10-08",
           "source": "yahoo",
           "status": "ok"
         },
         {
           "ticker": "VRT",
-          "return_20d_pct": -5.36,
-          "last_close": 243.22999572753906,
-          "last_date": "2026-10-09",
+          "return_20d_pct": -1.75,
+          "last_close": 243.72999572753906,
+          "last_date": "2026-10-08",
           "source": "yahoo",
           "status": "ok"
         },
         {
           "ticker": "SMCI",
-          "return_20d_pct": 3.7,
-          "last_close": 41.584999084472656,
-          "last_date": "2026-10-09",
+          "return_20d_pct": 14.42,
+          "last_close": 42.77000045776367,
+          "last_date": "2026-10-08",
           "source": "yahoo",
           "status": "ok"
         },
         {
           "ticker": "LITE",
-          "return_20d_pct": 19.58,
-          "last_close": 1108.510009765625,
-          "last_date": "2026-10-09",
+          "return_20d_pct": 12.07,
+          "last_close": 1048.5999755859375,
+          "last_date": "2026-10-08",
           "source": "yahoo",
           "status": "ok"
         }
