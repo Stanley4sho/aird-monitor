@@ -1,13 +1,13 @@
 {
-  "as_of": "2026-10-12T22:12:33Z",
-  "ai_rdm_score": 87.9,
-  "aird_m_score": 87.9,
+  "as_of": "2026-10-13T02:59:56Z",
+  "ai_rdm_score": 87.6,
+  "aird_m_score": 87.6,
   "status": "強擴張",
   "status_band": "strong_expansion",
   "subscores": {
     "supply_chain_revenue": 85.0,
     "hyperscaler_capex": 100.0,
-    "market_confirmation": 73.1
+    "market_confirmation": 71.8
   },
   "warnings": {
     "slowdown": false,
@@ -15,19 +15,16 @@
   },
   "interpretation_for_00988a": "目前 AI 基建需求仍在擴張，對 00988A 的產業主軸偏正面，但仍需觀察市場價格是否過熱。",
   "source_status": {
-    "tw_revenue": "stale",
-    "sec_capex": "stale",
-    "market_prices": "partial"
+    "tw_revenue": "ok",
+    "sec_capex": "ok",
+    "market_prices": "ok"
   },
-  "stale": true,
-  "stale_components": [
-    "hyperscaler_capex",
-    "supply_chain_revenue"
-  ],
+  "stale": false,
+  "stale_components": [],
   "details": {
     "supply_chain_revenue": {
       "score": 85.0,
-      "median_yoy_growth_pct": 65.4,
+      "median_yoy_growth_pct": 63.77,
       "yoy_positive_ratio": 1.0,
       "avg_3m_yoy_acceleration_ratio": null,
       "companies": [
@@ -95,27 +92,25 @@
           "ticker": "3711.TW",
           "code": "3711",
           "name": "日月光投控",
-          "data_month": null,
-          "yoy_growth_pct": null,
-          "mom_growth_pct": null,
-          "avg_3m_yoy_pct": null,
+          "data_month": "2026-09",
+          "yoy_growth_pct": 45.52228936841058,
+          "mom_growth_pct": 7.15245935997908,
+          "avg_3m_yoy_pct": 44.78,
           "avg_3m_yoy_accelerating": null,
-          "revenue_current": null,
-          "status": "partial",
-          "note": "not found in monthly revenue csv"
+          "revenue_current": 88130084,
+          "status": "ok"
         },
         {
           "ticker": "2308.TW",
           "code": "2308",
           "name": "台達電",
-          "data_month": null,
-          "yoy_growth_pct": null,
-          "mom_growth_pct": null,
-          "avg_3m_yoy_pct": null,
+          "data_month": "2026-09",
+          "yoy_growth_pct": 14.613858860431652,
+          "mom_growth_pct": 1.2595816164571392,
+          "avg_3m_yoy_pct": 32.44,
           "avg_3m_yoy_accelerating": null,
-          "revenue_current": null,
-          "status": "partial",
-          "note": "not found in monthly revenue csv"
+          "revenue_current": 65399563,
+          "status": "ok"
         },
         {
           "ticker": "2345.TW",
@@ -560,10 +555,10 @@
       ]
     },
     "market_confirmation": {
-      "score": 73.1,
-      "basket_return_20d_pct": 9.94,
+      "score": 71.8,
+      "basket_return_20d_pct": 9.67,
       "benchmark_return_20d_pct": 5.31,
-      "spread_pct": 4.63,
+      "spread_pct": 4.36,
       "benchmark": {
         "ticker": "QQQ",
         "return_20d_pct": 5.31,
@@ -575,12 +570,11 @@
       "tickers": [
         {
           "ticker": "NVDA",
-          "return_20d_pct": null,
-          "last_close": null,
-          "last_date": null,
-          "source": null,
-          "status": "error",
-          "note": "stooq: unexpected response, not CSV; yahoo: 429 Client Error: Too Many Requests for url: https://query2.finance.yahoo.com/v8/finance/chart/NVDA?range=4mo&interval=1d&events=history; nasdaq: HTTPSConnectionPool(host='api.nasdaq.com', port=443): Read timed out. (read timeout=30)"
+          "return_20d_pct": 7.28,
+          "last_close": 226.32000732421875,
+          "last_date": "2026-10-12",
+          "source": "yahoo",
+          "status": "ok"
         },
         {
           "ticker": "AMD",
