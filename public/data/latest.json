@@ -1,13 +1,13 @@
 {
-  "as_of": "2026-10-15T18:30:52Z",
-  "ai_rdm_score": 76.8,
-  "aird_m_score": 76.8,
+  "as_of": "2026-10-15T22:35:24Z",
+  "ai_rdm_score": 77.9,
+  "aird_m_score": 77.9,
   "status": "強擴張",
   "status_band": "strong_expansion",
   "subscores": {
     "supply_chain_revenue": 85.0,
     "hyperscaler_capex": 100.0,
-    "market_confirmation": 17.6
+    "market_confirmation": 23.2
   },
   "warnings": {
     "slowdown": false,
@@ -558,14 +558,14 @@
       ]
     },
     "market_confirmation": {
-      "score": 17.6,
-      "basket_return_20d_pct": -5.36,
-      "benchmark_return_20d_pct": 1.11,
-      "spread_pct": -6.47,
+      "score": 23.2,
+      "basket_return_20d_pct": -3.72,
+      "benchmark_return_20d_pct": 1.65,
+      "spread_pct": -5.37,
       "benchmark": {
         "ticker": "QQQ",
-        "return_20d_pct": 1.11,
-        "last_close": 724.0900268554688,
+        "return_20d_pct": 1.65,
+        "last_close": 728.0,
         "last_date": "2026-10-15",
         "source": "yahoo",
         "status": "ok"
@@ -573,80 +573,80 @@
       "tickers": [
         {
           "ticker": "NVDA",
-          "return_20d_pct": -1.01,
-          "last_close": 217.1199951171875,
+          "return_20d_pct": -0.96,
+          "last_close": 217.22999572753906,
           "last_date": "2026-10-15",
           "source": "yahoo",
           "status": "ok"
         },
         {
           "ticker": "AMD",
-          "return_20d_pct": 1.37,
-          "last_close": 552.5499877929688,
+          "return_20d_pct": 3.14,
+          "last_close": 562.22998046875,
           "last_date": "2026-10-15",
           "source": "yahoo",
           "status": "ok"
         },
         {
           "ticker": "AVGO",
-          "return_20d_pct": -2.46,
-          "last_close": 338.1499938964844,
+          "return_20d_pct": -0.67,
+          "last_close": 344.3299865722656,
           "last_date": "2026-10-15",
           "source": "yahoo",
           "status": "ok"
         },
         {
           "ticker": "MU",
-          "return_20d_pct": -7.33,
-          "last_close": 905.732421875,
+          "return_20d_pct": -4.72,
+          "last_close": 931.239990234375,
           "last_date": "2026-10-15",
           "source": "yahoo",
           "status": "ok"
         },
         {
           "ticker": "TSM",
-          "return_20d_pct": -2.74,
-          "last_close": 418.4700012207031,
+          "return_20d_pct": -1.86,
+          "last_close": 422.25,
           "last_date": "2026-10-15",
           "source": "yahoo",
           "status": "ok"
         },
         {
           "ticker": "ASML",
-          "return_20d_pct": 0.78,
-          "last_close": 1642.4000244140625,
+          "return_20d_pct": 1.7,
+          "last_close": 1657.43994140625,
           "last_date": "2026-10-15",
           "source": "yahoo",
           "status": "ok"
         },
         {
           "ticker": "ANET",
-          "return_20d_pct": -8.33,
-          "last_close": 182.91000366210938,
+          "return_20d_pct": -6.99,
+          "last_close": 185.5800018310547,
           "last_date": "2026-10-15",
           "source": "yahoo",
           "status": "ok"
         },
         {
           "ticker": "VRT",
-          "return_20d_pct": -13.3,
-          "last_close": 209.375,
+          "return_20d_pct": -11.07,
+          "last_close": 214.75,
           "last_date": "2026-10-15",
           "source": "yahoo",
           "status": "ok"
         },
         {
           "ticker": "SMCI",
-          "return_20d_pct": -15.53,
-          "last_close": 34.084999084472656,
+          "return_20d_pct": -13.04,
+          "last_close": 35.09000015258789,
           "last_date": "2026-10-15",
           "source": "yahoo",
           "status": "ok"
         },
         {
           "ticker": "LITE",
-          "return_20d_pct": -5.07,
-          "last_close": 848.3200073242188,
+          "return_20d_pct": -2.69,
+          "last_close": 869.5399780273438,
           "last_date": "2026-10-15",
           "source": "yahoo",
           "status": "ok"
