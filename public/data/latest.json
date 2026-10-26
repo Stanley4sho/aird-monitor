@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-26T20:03:51Z",
+  "as_of": "2026-10-26T23:59:56Z",
   "ai_rdm_score": 74.6,
   "aird_m_score": 74.6,
   "status": "強擴張",
@@ -605,8 +605,8 @@
         },
         {
           "ticker": "TSM",
-          "return_20d_pct": -6.29,
-          "last_close": 424.3900146484375,
+          "return_20d_pct": -6.3,
+          "last_close": 424.3699951171875,
           "last_date": "2026-10-26",
           "source": "yahoo",
           "status": "ok"
@@ -621,16 +621,16 @@
         },
         {
           "ticker": "ANET",
-          "return_20d_pct": -13.53,
-          "last_close": 177.1999969482422,
+          "return_20d_pct": -13.51,
+          "last_close": 177.24000549316406,
           "last_date": "2026-10-26",
           "source": "yahoo",
           "status": "ok"
         },
         {
           "ticker": "VRT",
-          "return_20d_pct": -18.08,
-          "last_close": 199.91000366210938,
+          "return_20d_pct": -18.14,
+          "last_close": 199.77999877929688,
           "last_date": "2026-10-26",
           "source": "yahoo",
           "status": "ok"
