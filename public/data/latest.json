@@ -1,13 +1,13 @@
 {
-  "as_of": "2026-10-29T00:13:12Z",
-  "ai_rdm_score": 76.2,
-  "aird_m_score": 76.2,
+  "as_of": "2026-10-29T01:44:41Z",
+  "ai_rdm_score": 79.5,
+  "aird_m_score": 79.5,
   "status": "強擴張",
   "status_band": "strong_expansion",
   "subscores": {
     "supply_chain_revenue": 85.0,
     "hyperscaler_capex": 100.0,
-    "market_confirmation": 15.0
+    "market_confirmation": 31.2
   },
   "warnings": {
     "slowdown": false,
@@ -15,15 +15,12 @@
   },
   "interpretation_for_00988a": "目前 AI 基建需求仍在擴張，對 00988A 的產業主軸偏正面，但仍需觀察市場價格是否過熱。",
   "source_status": {
-    "tw_revenue": "stale",
-    "sec_capex": "stale",
+    "tw_revenue": "ok",
+    "sec_capex": "ok",
     "market_prices": "ok"
   },
-  "stale": true,
-  "stale_components": [
-    "hyperscaler_capex",
-    "supply_chain_revenue"
-  ],
+  "stale": false,
+  "stale_components": [],
   "details": {
     "supply_chain_revenue": {
       "score": 85.0,
@@ -168,36 +165,17 @@
           "name": "Microsoft",
           "cik": "0000789019",
           "fiscal_year_end_month": 6,
-          "latest_quarter": "FY2026Q4",
-          "fiscal_year": 2026,
-          "fiscal_quarter": 4,
-          "period_start": "2026-04-01",
-          "period_end": "2026-06-30",
-          "latest_capex_usd": 35802000000.0,
-          "yoy_growth_pct": 109.63,
-          "qoq_growth_pct": 15.95,
+          "latest_quarter": "FY2027Q1",
+          "fiscal_year": 2027,
+          "fiscal_quarter": 1,
+          "period_start": "2026-07-01",
+          "period_end": "2026-09-30",
+          "latest_capex_usd": 39367000000.0,
+          "yoy_growth_pct": 102.99,
+          "qoq_growth_pct": 9.96,
           "source_tag": "PaymentsToAcquirePropertyPlantAndEquipment",
-          "confidence": "medium",
+          "confidence": "high",
           "recent_quarters": [
-            {
-              "fiscal_year": 2026,
-              "fiscal_quarter": 1,
-              "period_start": "2025-07-01",
-              "period_end": "2025-09-30",
-              "capex_usd": 19394000000.0,
-              "yoy_growth_pct": 29.96,
-              "qoq_growth_pct": 13.55,
-              "source_tag": "PaymentsToAcquirePropertyPlantAndEquipment",
-              "confidence": "high",
-              "period_type": "quarter",
-              "derived_from_ytd": false,
-              "derivation": "direct",
-              "filed": "2025-10-29",
-              "form": "10-Q",
-              "source_start": "2025-07-01",
-              "source_end": "2025-09-30",
-              "source_duration_days": 92
-            },
             {
               "fiscal_year": 2026,
               "fiscal_quarter": 2,
@@ -254,10 +232,29 @@
               "source_start": "2025-07-01",
               "source_end": "2026-06-30",
               "source_duration_days": 365
+            },
+            {
+              "fiscal_year": 2027,
+              "fiscal_quarter": 1,
+              "period_start": "2026-07-01",
+              "period_end": "2026-09-30",
+              "capex_usd": 39367000000.0,
+              "yoy_growth_pct": 102.99,
+              "qoq_growth_pct": 9.96,
+              "source_tag": "PaymentsToAcquirePropertyPlantAndEquipment",
+              "confidence": "high",
+              "period_type": "quarter",
+              "derived_from_ytd": false,
+              "derivation": "direct",
+              "filed": "2026-10-28",
+              "form": "10-Q",
+              "source_start": "2026-07-01",
+              "source_end": "2026-09-30",
+              "source_duration_days": 92
             }
           ],
           "positive_keyword_found": true,
-          "keyword_source": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+          "keyword_source": "https://www.sec.gov/Archives/edgar/data/789019/000119312526436133/msft-20260930.htm",
           "status": "ok",
           "note": null
         },
@@ -558,96 +555,96 @@
       ]
     },
     "market_confirmation": {
-      "score": 15.0,
-      "basket_return_20d_pct": -9.27,
-      "benchmark_return_20d_pct": -2.26,
-      "spread_pct": -7.01,
+      "score": 31.2,
+      "basket_return_20d_pct": -5.67,
+      "benchmark_return_20d_pct": -1.91,
+      "spread_pct": -3.76,
       "benchmark": {
         "ticker": "QQQ",
-        "return_20d_pct": -2.26,
-        "last_close": 721.25,
-        "last_date": "2026-10-27",
+        "return_20d_pct": -1.91,
+        "last_close": 725.6099853515625,
+        "last_date": "2026-10-28",
         "source": "yahoo",
         "status": "ok"
       },
       "tickers": [
         {
           "ticker": "NVDA",
-          "return_20d_pct": -4.08,
-          "last_close": 217.94000244140625,
-          "last_date": "2026-10-27",
+          "return_20d_pct": -5.69,
+          "last_close": 215.3800048828125,
+          "last_date": "2026-10-28",
           "source": "yahoo",
           "status": "ok"
         },
         {
           "ticker": "AMD",
-          "return_20d_pct": -7.79,
-          "last_close": 560.260009765625,
-          "last_date": "2026-10-27",
+          "return_20d_pct": -5.45,
+          "last_close": 578.4400024414062,
+          "last_date": "2026-10-28",
           "source": "yahoo",
           "status": "ok"
         },
         {
           "ticker": "AVGO",
-          "return_20d_pct": -3.6,
-          "last_close": 342.3299865722656,
-          "last_date": "2026-10-27",
+          "return_20d_pct": 0.18,
+          "last_close": 351.80999755859375,
+          "last_date": "2026-10-28",
           "source": "yahoo",
           "status": "ok"
         },
         {
           "ticker": "MU",
-          "return_20d_pct": -12.79,
-          "last_close": 928.760009765625,
-          "last_date": "2026-10-27",
+          "return_20d_pct": -7.67,
+          "last_close": 983.22998046875,
+          "last_date": "2026-10-28",
           "source": "yahoo",
           "status": "ok"
         },
         {
           "ticker": "TSM",
-          "return_20d_pct": -4.39,
-          "last_close": 436.8699951171875,
-          "last_date": "2026-10-27",
+          "return_20d_pct": -3.66,
+          "last_close": 439.510009765625,
+          "last_date": "2026-10-28",
           "source": "yahoo",
           "status": "ok"
         },
         {
           "ticker": "ASML",
-          "return_20d_pct": -10.72,
-          "last_close": 1635.5699462890625,
-          "last_date": "2026-10-27",
+          "return_20d_pct": -8.09,
+          "last_close": 1662.8499755859375,
+          "last_date": "2026-10-28",
           "source": "yahoo",
           "status": "ok"
         },
         {
           "ticker": "ANET",
-          "return_20d_pct": -7.82,
-          "last_close": 187.0,
-          "last_date": "2026-10-27",
+          "return_20d_pct": -8.29,
+          "last_close": 186.72000122070312,
+          "last_date": "2026-10-28",
           "source": "yahoo",
           "status": "ok"
         },
         {
           "ticker": "VRT",
-          "return_20d_pct": -16.02,
-          "last_close": 208.55999755859375,
-          "last_date": "2026-10-27",
+          "return_20d_pct": 0.68,
+          "last_close": 242.94000244140625,
+          "last_date": "2026-10-28",
           "source": "yahoo",
           "status": "ok"
         },
         {
           "ticker": "SMCI",
-          "return_20d_pct": -14.46,
-          "last_close": 35.09000015258789,
-          "last_date": "2026-10-27",
+          "return_20d_pct": -12.81,
+          "last_close": 35.810001373291016,
+          "last_date": "2026-10-28",
           "source": "yahoo",
           "status": "ok"
         },
         {
           "ticker": "LITE",
-          "return_20d_pct": -11.02,
-          "last_close": 866.1799926757812,
-          "last_date": "2026-10-27",
+          "return_20d_pct": -5.9,
+          "last_close": 913.9500122070312,
+          "last_date": "2026-10-28",
           "source": "yahoo",
           "status": "ok"
         }
