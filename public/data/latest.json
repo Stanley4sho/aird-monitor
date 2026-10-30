@@ -1,13 +1,13 @@
 {
-  "as_of": "2026-10-30T00:18:56Z",
-  "ai_rdm_score": 79.5,
-  "aird_m_score": 79.5,
+  "as_of": "2026-10-30T01:53:05Z",
+  "ai_rdm_score": 78.5,
+  "aird_m_score": 78.5,
   "status": "強擴張",
   "status_band": "strong_expansion",
   "subscores": {
     "supply_chain_revenue": 85.0,
     "hyperscaler_capex": 100.0,
-    "market_confirmation": 31.2
+    "market_confirmation": 26.5
   },
   "warnings": {
     "slowdown": false,
@@ -15,15 +15,12 @@
   },
   "interpretation_for_00988a": "目前 AI 基建需求仍在擴張，對 00988A 的產業主軸偏正面，但仍需觀察市場價格是否過熱。",
   "source_status": {
-    "tw_revenue": "stale",
-    "sec_capex": "stale",
+    "tw_revenue": "ok",
+    "sec_capex": "ok",
     "market_prices": "ok"
   },
-  "stale": true,
-  "stale_components": [
-    "hyperscaler_capex",
-    "supply_chain_revenue"
-  ],
+  "stale": false,
+  "stale_components": [],
   "details": {
     "supply_chain_revenue": {
       "score": 85.0,
@@ -159,7 +156,7 @@
       "coverage": 1.0,
       "valid_companies": 4,
       "expected_companies": 4,
-      "median_capex_yoy_growth_pct": 90.2,
+      "median_capex_yoy_growth_pct": 91.62,
       "capex_yoy_positive_ratio": 1.0,
       "positive_keyword_ratio": 1.0,
       "companies": [
@@ -266,36 +263,17 @@
           "name": "Alphabet",
           "cik": "0001652044",
           "fiscal_year_end_month": 12,
-          "latest_quarter": "FY2026Q2",
+          "latest_quarter": "FY2026Q3",
           "fiscal_year": 2026,
-          "fiscal_quarter": 2,
-          "period_start": "2026-04-01",
-          "period_end": "2026-06-30",
-          "latest_capex_usd": 44924000000.0,
-          "yoy_growth_pct": 100.14,
-          "qoq_growth_pct": 25.93,
+          "fiscal_quarter": 3,
+          "period_start": "2026-07-01",
+          "period_end": "2026-09-30",
+          "latest_capex_usd": 51355000000.0,
+          "yoy_growth_pct": 114.4,
+          "qoq_growth_pct": 14.32,
           "source_tag": "PaymentsToAcquirePropertyPlantAndEquipment",
           "confidence": "medium",
           "recent_quarters": [
-            {
-              "fiscal_year": 2025,
-              "fiscal_quarter": 3,
-              "period_start": "2025-07-01",
-              "period_end": "2025-09-30",
-              "capex_usd": 23953000000.0,
-              "yoy_growth_pct": 83.39,
-              "qoq_growth_pct": 6.71,
-              "source_tag": "PaymentsToAcquirePropertyPlantAndEquipment",
-              "confidence": "medium",
-              "period_type": "derived_ytd",
-              "derived_from_ytd": true,
-              "derivation": "ytd_9m_minus_ytd_6m",
-              "filed": "2025-10-30",
-              "form": "10-Q",
-              "source_start": "2025-01-01",
-              "source_end": "2025-09-30",
-              "source_duration_days": 273
-            },
             {
               "fiscal_year": 2025,
               "fiscal_quarter": 4,
@@ -352,10 +330,29 @@
               "source_start": "2026-01-01",
               "source_end": "2026-06-30",
               "source_duration_days": 181
+            },
+            {
+              "fiscal_year": 2026,
+              "fiscal_quarter": 3,
+              "period_start": "2026-07-01",
+              "period_end": "2026-09-30",
+              "capex_usd": 51355000000.0,
+              "yoy_growth_pct": 114.4,
+              "qoq_growth_pct": 14.32,
+              "source_tag": "PaymentsToAcquirePropertyPlantAndEquipment",
+              "confidence": "medium",
+              "period_type": "derived_ytd",
+              "derived_from_ytd": true,
+              "derivation": "ytd_9m_minus_ytd_6m",
+              "filed": "2026-10-29",
+              "form": "10-Q",
+              "source_start": "2026-01-01",
+              "source_end": "2026-09-30",
+              "source_duration_days": 273
             }
           ],
           "positive_keyword_found": true,
-          "keyword_source": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000071/goog-20260630.htm",
+          "keyword_source": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm",
           "status": "ok",
           "note": null
         },
@@ -558,96 +555,96 @@
       ]
     },
     "market_confirmation": {
-      "score": 31.2,
-      "basket_return_20d_pct": -5.67,
-      "benchmark_return_20d_pct": -1.91,
-      "spread_pct": -3.76,
+      "score": 26.5,
+      "basket_return_20d_pct": -8.3,
+      "benchmark_return_20d_pct": -3.6,
+      "spread_pct": -4.7,
       "benchmark": {
         "ticker": "QQQ",
-        "return_20d_pct": -1.91,
-        "last_close": 725.6099853515625,
-        "last_date": "2026-10-28",
+        "return_20d_pct": -3.6,
+        "last_close": 715.3400268554688,
+        "last_date": "2026-10-29",
         "source": "yahoo",
         "status": "ok"
       },
       "tickers": [
         {
           "ticker": "NVDA",
-          "return_20d_pct": -5.69,
-          "last_close": 215.3800048828125,
-          "last_date": "2026-10-28",
+          "return_20d_pct": -7.45,
+          "last_close": 213.66000366210938,
+          "last_date": "2026-10-29",
           "source": "yahoo",
           "status": "ok"
         },
         {
           "ticker": "AMD",
-          "return_20d_pct": -5.45,
-          "last_close": 578.4400024414062,
-          "last_date": "2026-10-28",
+          "return_20d_pct": -8.01,
+          "last_close": 566.4199829101562,
+          "last_date": "2026-10-29",
           "source": "yahoo",
           "status": "ok"
         },
         {
           "ticker": "AVGO",
-          "return_20d_pct": 0.18,
-          "last_close": 351.80999755859375,
-          "last_date": "2026-10-28",
+          "return_20d_pct": 0.4,
+          "last_close": 345.0,
+          "last_date": "2026-10-29",
           "source": "yahoo",
           "status": "ok"
         },
         {
           "ticker": "MU",
-          "return_20d_pct": -7.67,
-          "last_close": 983.22998046875,
-          "last_date": "2026-10-28",
+          "return_20d_pct": -14.85,
+          "last_close": 934.27001953125,
+          "last_date": "2026-10-29",
           "source": "yahoo",
           "status": "ok"
         },
         {
           "ticker": "TSM",
-          "return_20d_pct": -3.66,
-          "last_close": 439.510009765625,
-          "last_date": "2026-10-28",
+          "return_20d_pct": -5.96,
+          "last_close": 431.80999755859375,
+          "last_date": "2026-10-29",
           "source": "yahoo",
           "status": "ok"
         },
         {
           "ticker": "ASML",
-          "return_20d_pct": -8.09,
-          "last_close": 1662.8499755859375,
-          "last_date": "2026-10-28",
+          "return_20d_pct": -7.22,
+          "last_close": 1675.699951171875,
+          "last_date": "2026-10-29",
           "source": "yahoo",
           "status": "ok"
         },
         {
           "ticker": "ANET",
-          "return_20d_pct": -8.29,
-          "last_close": 186.72000122070312,
-          "last_date": "2026-10-28",
+          "return_20d_pct": -9.91,
+          "last_close": 184.22000122070312,
+          "last_date": "2026-10-29",
           "source": "yahoo",
           "status": "ok"
         },
         {
           "ticker": "VRT",
-          "return_20d_pct": 0.68,
-          "last_close": 242.94000244140625,
-          "last_date": "2026-10-28",
+          "return_20d_pct": -0.08,
+          "last_close": 245.9199981689453,
+          "last_date": "2026-10-29",
           "source": "yahoo",
           "status": "ok"
         },
         {
           "ticker": "SMCI",
-          "return_20d_pct": -12.81,
-          "last_close": 35.810001373291016,
-          "last_date": "2026-10-28",
+          "return_20d_pct": -17.87,
+          "last_close": 34.43000030517578,
+          "last_date": "2026-10-29",
           "source": "yahoo",
           "status": "ok"
         },
         {
           "ticker": "LITE",
-          "return_20d_pct": -5.9,
-          "last_close": 913.9500122070312,
-          "last_date": "2026-10-28",
+          "return_20d_pct": -12.07,
+          "last_close": 919.530029296875,
+          "last_date": "2026-10-29",
           "source": "yahoo",
           "status": "ok"
         }
