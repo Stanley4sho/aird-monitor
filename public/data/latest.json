@@ -1,13 +1,13 @@
 {
-  "as_of": "2026-11-05T02:17:35Z",
-  "ai_rdm_score": 73.5,
-  "aird_m_score": 73.5,
+  "as_of": "2026-11-05T03:45:16Z",
+  "ai_rdm_score": 73.2,
+  "aird_m_score": 73.2,
   "status": "強擴張",
   "status_band": "strong_expansion",
   "subscores": {
     "supply_chain_revenue": 85.0,
     "hyperscaler_capex": 100.0,
-    "market_confirmation": 1.0
+    "market_confirmation": 0.0
   },
   "warnings": {
     "slowdown": false,
@@ -15,138 +15,150 @@
   },
   "interpretation_for_00988a": "目前 AI 基建需求仍在擴張，對 00988A 的產業主軸偏正面，但仍需觀察市場價格是否過熱。",
   "source_status": {
-    "tw_revenue": "ok",
+    "tw_revenue": "stale",
     "sec_capex": "ok",
     "market_prices": "ok"
   },
-  "stale": false,
-  "stale_components": [],
+  "stale": true,
+  "stale_components": [
+    "supply_chain_revenue"
+  ],
   "details": {
     "supply_chain_revenue": {
       "score": 85.0,
-      "median_yoy_growth_pct": 63.77,
-      "yoy_positive_ratio": 1.0,
+      "median_yoy_growth_pct": null,
+      "yoy_positive_ratio": null,
       "avg_3m_yoy_acceleration_ratio": null,
       "companies": [
         {
           "ticker": "3037.TW",
           "code": "3037",
           "name": "欣興",
-          "data_month": "2026-09",
-          "yoy_growth_pct": 64.66643811385126,
-          "mom_growth_pct": 5.100780653414533,
-          "avg_3m_yoy_pct": 54.87,
+          "data_month": null,
+          "yoy_growth_pct": null,
+          "mom_growth_pct": null,
+          "avg_3m_yoy_pct": null,
           "avg_3m_yoy_accelerating": null,
-          "revenue_current": 18650679,
-          "status": "ok"
+          "revenue_current": null,
+          "status": "error",
+          "note": "fetch failed: HTTPSConnectionPool(host='mopsfin.twse.com.tw', port=443): Max retries exceeded with url: /opendata/t187ap05_L.csv (Caused by NameResolutionError(\"HTTPSConnection(host='mopsfin.twse.com.tw', port=443): Failed to resolve 'mopsfin.twse.com.tw' ([Errno -2] Name or service not known)\"))"
         },
         {
           "ticker": "2383.TW",
           "code": "2383",
           "name": "台光電",
-          "data_month": "2026-09",
-          "yoy_growth_pct": 168.87284393304373,
-          "mom_growth_pct": 6.8830998190224175,
-          "avg_3m_yoy_pct": 142.71,
+          "data_month": null,
+          "yoy_growth_pct": null,
+          "mom_growth_pct": null,
+          "avg_3m_yoy_pct": null,
           "avg_3m_yoy_accelerating": null,
-          "revenue_current": 21532230,
-          "status": "ok"
+          "revenue_current": null,
+          "status": "error",
+          "note": "fetch failed: HTTPSConnectionPool(host='mopsfin.twse.com.tw', port=443): Max retries exceeded with url: /opendata/t187ap05_L.csv (Caused by NameResolutionError(\"HTTPSConnection(host='mopsfin.twse.com.tw', port=443): Failed to resolve 'mopsfin.twse.com.tw' ([Errno -2] Name or service not known)\"))"
         },
         {
           "ticker": "2454.TW",
           "code": "2454",
           "name": "聯發科",
-          "data_month": "2026-09",
-          "yoy_growth_pct": 1.9684131750496783,
-          "mom_growth_pct": -13.685578104892326,
-          "avg_3m_yoy_pct": 19.4,
+          "data_month": null,
+          "yoy_growth_pct": null,
+          "mom_growth_pct": null,
+          "avg_3m_yoy_pct": null,
           "avg_3m_yoy_accelerating": null,
-          "revenue_current": 55399497,
-          "status": "ok"
+          "revenue_current": null,
+          "status": "error",
+          "note": "fetch failed: HTTPSConnectionPool(host='mopsfin.twse.com.tw', port=443): Max retries exceeded with url: /opendata/t187ap05_L.csv (Caused by NameResolutionError(\"HTTPSConnection(host='mopsfin.twse.com.tw', port=443): Failed to resolve 'mopsfin.twse.com.tw' ([Errno -2] Name or service not known)\"))"
         },
         {
           "ticker": "2330.TW",
           "code": "2330",
           "name": "台積電",
-          "data_month": "2026-09",
-          "yoy_growth_pct": 54.64861207105231,
-          "mom_growth_pct": -0.5726315925897248,
-          "avg_3m_yoy_pct": 50.89,
+          "data_month": null,
+          "yoy_growth_pct": null,
+          "mom_growth_pct": null,
+          "avg_3m_yoy_pct": null,
           "avg_3m_yoy_accelerating": null,
-          "revenue_current": 511857399,
-          "status": "ok"
+          "revenue_current": null,
+          "status": "error",
+          "note": "fetch failed: HTTPSConnectionPool(host='mopsfin.twse.com.tw', port=443): Max retries exceeded with url: /opendata/t187ap05_L.csv (Caused by NameResolutionError(\"HTTPSConnection(host='mopsfin.twse.com.tw', port=443): Failed to resolve 'mopsfin.twse.com.tw' ([Errno -2] Name or service not known)\"))"
         },
         {
           "ticker": "6669.TW",
           "code": "6669",
           "name": "緯穎",
-          "data_month": "2026-09",
-          "yoy_growth_pct": 99.98511294484359,
-          "mom_growth_pct": 19.616235422675878,
-          "avg_3m_yoy_pct": 63.19,
+          "data_month": null,
+          "yoy_growth_pct": null,
+          "mom_growth_pct": null,
+          "avg_3m_yoy_pct": null,
           "avg_3m_yoy_accelerating": null,
-          "revenue_current": 172620352,
-          "status": "ok"
+          "revenue_current": null,
+          "status": "error",
+          "note": "fetch failed: HTTPSConnectionPool(host='mopsfin.twse.com.tw', port=443): Max retries exceeded with url: /opendata/t187ap05_L.csv (Caused by NameResolutionError(\"HTTPSConnection(host='mopsfin.twse.com.tw', port=443): Failed to resolve 'mopsfin.twse.com.tw' ([Errno -2] Name or service not known)\"))"
         },
         {
           "ticker": "3711.TW",
           "code": "3711",
           "name": "日月光投控",
-          "data_month": "2026-09",
-          "yoy_growth_pct": 45.52228936841058,
-          "mom_growth_pct": 7.15245935997908,
-          "avg_3m_yoy_pct": 44.78,
+          "data_month": null,
+          "yoy_growth_pct": null,
+          "mom_growth_pct": null,
+          "avg_3m_yoy_pct": null,
           "avg_3m_yoy_accelerating": null,
-          "revenue_current": 88130084,
-          "status": "ok"
+          "revenue_current": null,
+          "status": "error",
+          "note": "fetch failed: HTTPSConnectionPool(host='mopsfin.twse.com.tw', port=443): Max retries exceeded with url: /opendata/t187ap05_L.csv (Caused by NameResolutionError(\"HTTPSConnection(host='mopsfin.twse.com.tw', port=443): Failed to resolve 'mopsfin.twse.com.tw' ([Errno -2] Name or service not known)\"))"
         },
         {
           "ticker": "2308.TW",
           "code": "2308",
           "name": "台達電",
-          "data_month": "2026-09",
-          "yoy_growth_pct": 14.613858860431652,
-          "mom_growth_pct": 1.2595816164571392,
-          "avg_3m_yoy_pct": 32.44,
+          "data_month": null,
+          "yoy_growth_pct": null,
+          "mom_growth_pct": null,
+          "avg_3m_yoy_pct": null,
           "avg_3m_yoy_accelerating": null,
-          "revenue_current": 65399563,
-          "status": "ok"
+          "revenue_current": null,
+          "status": "error",
+          "note": "fetch failed: HTTPSConnectionPool(host='mopsfin.twse.com.tw', port=443): Max retries exceeded with url: /opendata/t187ap05_L.csv (Caused by NameResolutionError(\"HTTPSConnection(host='mopsfin.twse.com.tw', port=443): Failed to resolve 'mopsfin.twse.com.tw' ([Errno -2] Name or service not known)\"))"
         },
         {
           "ticker": "2345.TW",
           "code": "2345",
           "name": "智邦",
-          "data_month": "2026-09",
-          "yoy_growth_pct": 66.12554142816796,
-          "mom_growth_pct": -1.1595788670776797,
-          "avg_3m_yoy_pct": 65.75,
+          "data_month": null,
+          "yoy_growth_pct": null,
+          "mom_growth_pct": null,
+          "avg_3m_yoy_pct": null,
           "avg_3m_yoy_accelerating": null,
-          "revenue_current": 40398562,
-          "status": "ok"
+          "revenue_current": null,
+          "status": "error",
+          "note": "fetch failed: HTTPSConnectionPool(host='mopsfin.twse.com.tw', port=443): Max retries exceeded with url: /opendata/t187ap05_L.csv (Caused by NameResolutionError(\"HTTPSConnection(host='mopsfin.twse.com.tw', port=443): Failed to resolve 'mopsfin.twse.com.tw' ([Errno -2] Name or service not known)\"))"
         },
         {
           "ticker": "2376.TW",
           "code": "2376",
           "name": "技嘉",
-          "data_month": "2026-09",
-          "yoy_growth_pct": 125.4495058048851,
-          "mom_growth_pct": 33.118593152595075,
-          "avg_3m_yoy_pct": 94.52,
+          "data_month": null,
+          "yoy_growth_pct": null,
+          "mom_growth_pct": null,
+          "avg_3m_yoy_pct": null,
           "avg_3m_yoy_accelerating": null,
-          "revenue_current": 63099342,
-          "status": "ok"
+          "revenue_current": null,
+          "status": "error",
+          "note": "fetch failed: HTTPSConnectionPool(host='mopsfin.twse.com.tw', port=443): Max retries exceeded with url: /opendata/t187ap05_L.csv (Caused by NameResolutionError(\"HTTPSConnection(host='mopsfin.twse.com.tw', port=443): Failed to resolve 'mopsfin.twse.com.tw' ([Errno -2] Name or service not known)\"))"
         },
         {
           "ticker": "2356.TW",
           "code": "2356",
           "name": "英業達",
-          "data_month": "2026-09",
-          "yoy_growth_pct": 62.87088005015264,
-          "mom_growth_pct": 18.456254353955167,
-          "avg_3m_yoy_pct": 54.81,
+          "data_month": null,
+          "yoy_growth_pct": null,
+          "mom_growth_pct": null,
+          "avg_3m_yoy_pct": null,
           "avg_3m_yoy_accelerating": null,
-          "revenue_current": 98635776,
-          "status": "ok"
+          "revenue_current": null,
+          "status": "error",
+          "note": "fetch failed: HTTPSConnectionPool(host='mopsfin.twse.com.tw', port=443): Max retries exceeded with url: /opendata/t187ap05_L.csv (Caused by NameResolutionError(\"HTTPSConnection(host='mopsfin.twse.com.tw', port=443): Failed to resolve 'mopsfin.twse.com.tw' ([Errno -2] Name or service not known)\"))"
         }
       ]
     },
@@ -555,96 +567,96 @@
       ]
     },
     "market_confirmation": {
-      "score": 1.0,
-      "basket_return_20d_pct": -19.59,
-      "benchmark_return_20d_pct": -9.79,
-      "spread_pct": -9.8,
+      "score": 0.0,
+      "basket_return_20d_pct": -22.53,
+      "benchmark_return_20d_pct": -8.68,
+      "spread_pct": -13.85,
       "benchmark": {
         "ticker": "QQQ",
-        "return_20d_pct": -9.79,
-        "last_close": 685.280029296875,
-        "last_date": "2026-11-03",
+        "return_20d_pct": -8.68,
+        "last_close": 691.9500122070312,
+        "last_date": "2026-11-04",
         "source": "yahoo",
         "status": "ok"
       },
       "tickers": [
         {
           "ticker": "NVDA",
-          "return_20d_pct": -13.61,
-          "last_close": 206.69000244140625,
-          "last_date": "2026-11-03",
+          "return_20d_pct": -15.72,
+          "last_close": 200.1300048828125,
+          "last_date": "2026-11-04",
           "source": "yahoo",
           "status": "ok"
         },
         {
           "ticker": "AMD",
-          "return_20d_pct": -25.49,
-          "last_close": 483.8999938964844,
-          "last_date": "2026-11-03",
+          "return_20d_pct": -24.32,
+          "last_close": 488.7799987792969,
+          "last_date": "2026-11-04",
           "source": "yahoo",
           "status": "ok"
         },
         {
           "ticker": "AVGO",
-          "return_20d_pct": -11.62,
-          "last_close": 332.1300048828125,
-          "last_date": "2026-11-03",
+          "return_20d_pct": -13.55,
+          "last_close": 325.4800109863281,
+          "last_date": "2026-11-04",
           "source": "yahoo",
           "status": "ok"
         },
         {
           "ticker": "MU",
-          "return_20d_pct": -18.2,
-          "last_close": 855.0999755859375,
-          "last_date": "2026-11-03",
+          "return_20d_pct": -26.9,
+          "last_close": 795.22998046875,
+          "last_date": "2026-11-04",
           "source": "yahoo",
           "status": "ok"
         },
         {
           "ticker": "TSM",
-          "return_20d_pct": -16.07,
-          "last_close": 404.79998779296875,
-          "last_date": "2026-11-03",
+          "return_20d_pct": -16.19,
+          "last_close": 395.75,
+          "last_date": "2026-11-04",
           "source": "yahoo",
           "status": "ok"
         },
         {
           "ticker": "ASML",
-          "return_20d_pct": -15.26,
-          "last_close": 1552.1400146484375,
-          "last_date": "2026-11-03",
+          "return_20d_pct": -16.99,
+          "last_close": 1496.300048828125,
+          "last_date": "2026-11-04",
           "source": "yahoo",
           "status": "ok"
         },
         {
           "ticker": "ANET",
-          "return_20d_pct": -21.1,
-          "last_close": 169.91000366210938,
-          "last_date": "2026-11-03",
+          "return_20d_pct": -17.31,
+          "last_close": 178.47999572753906,
+          "last_date": "2026-11-04",
           "source": "yahoo",
           "status": "ok"
         },
         {
           "ticker": "VRT",
-          "return_20d_pct": -6.78,
-          "last_close": 235.97000122070312,
-          "last_date": "2026-11-03",
+          "return_20d_pct": -16.61,
+          "last_close": 205.5500030517578,
+          "last_date": "2026-11-04",
           "source": "yahoo",
           "status": "ok"
         },
         {
           "ticker": "SMCI",
-          "return_20d_pct": -27.77,
-          "last_close": 31.389999389648438,
-          "last_date": "2026-11-03",
+          "return_20d_pct": -34.13,
+          "last_close": 29.600000381469727,
+          "last_date": "2026-11-04",
           "source": "yahoo",
           "status": "ok"
         },
         {
           "ticker": "LITE",
-          "return_20d_pct": -39.99,
-          "last_close": 680.1599731445312,
-          "last_date": "2026-11-03",
+          "return_20d_pct": -43.59,
+          "last_close": 626.75,
+          "last_date": "2026-11-04",
           "source": "yahoo",
           "status": "ok"
         }
