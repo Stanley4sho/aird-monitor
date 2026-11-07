@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-07T00:16:01Z",
+  "as_of": "2026-11-07T01:49:29Z",
   "ai_rdm_score": 73.2,
   "aird_m_score": 73.2,
   "status": "強擴張",
@@ -15,15 +15,12 @@
   },
   "interpretation_for_00988a": "目前 AI 基建需求仍在擴張，對 00988A 的產業主軸偏正面，但仍需觀察市場價格是否過熱。",
   "source_status": {
-    "tw_revenue": "stale",
-    "sec_capex": "stale",
+    "tw_revenue": "ok",
+    "sec_capex": "ok",
     "market_prices": "ok"
   },
-  "stale": true,
-  "stale_components": [
-    "hyperscaler_capex",
-    "supply_chain_revenue"
-  ],
+  "stale": false,
+  "stale_components": [],
   "details": {
     "supply_chain_revenue": {
       "score": 85.0,
@@ -559,9 +556,9 @@
     },
     "market_confirmation": {
       "score": 0.0,
-      "basket_return_20d_pct": -26.19,
+      "basket_return_20d_pct": -26.82,
       "benchmark_return_20d_pct": -12.67,
-      "spread_pct": -13.52,
+      "spread_pct": -14.15,
       "benchmark": {
         "ticker": "QQQ",
         "return_20d_pct": -12.67,
@@ -621,17 +618,17 @@
         },
         {
           "ticker": "ANET",
-          "return_20d_pct": -21.2,
-          "last_close": 170.8000030517578,
-          "last_date": "2026-11-06",
+          "return_20d_pct": -24.56,
+          "last_close": 159.16000366210938,
+          "last_date": "2026-11-05",
           "source": "yahoo",
           "status": "ok"
         },
         {
           "ticker": "VRT",
-          "return_20d_pct": -24.68,
-          "last_close": 182.86000061035156,
-          "last_date": "2026-11-06",
+          "return_20d_pct": -27.49,
+          "last_close": 176.72999572753906,
+          "last_date": "2026-11-05",
           "source": "yahoo",
           "status": "ok"
         },
@@ -645,9 +642,9 @@
         },
         {
           "ticker": "LITE",
-          "return_20d_pct": -51.19,
-          "last_close": 538.5900268554688,
-          "last_date": "2026-11-06",
+          "return_20d_pct": -51.39,
+          "last_close": 509.70001220703125,
+          "last_date": "2026-11-05",
           "source": "yahoo",
           "status": "ok"
         }
