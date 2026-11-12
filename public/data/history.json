@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T03:56:35Z",
+  "updated_at": "2026-11-12T21:32:10Z",
   "series": [
     {
       "as_of": "2026-07-02T19:46:40Z",
@@ -2842,6 +2842,13 @@
       "supply_chain_revenue": 94.0,
       "hyperscaler_capex": 100.0,
       "market_confirmation": 28.3
+    },
+    {
+      "as_of": "2026-11-12T21:32:10Z",
+      "ai_rdm_score": 84.4,
+      "supply_chain_revenue": 94.0,
+      "hyperscaler_capex": 100.0,
+      "market_confirmation": 35.5
     }
   ],
   "tw_revenue_observations": {
