@@ -1,28 +1,43 @@
 {
-  "generated_at": "2026-11-12T21:32:10Z",
-  "stale": true,
+  "generated_at": "2026-11-13T02:33:46Z",
+  "stale": false,
   "sources": {
     "tw_revenue": {
-      "status": "stale",
-      "last_updated": "2026-11-12T03:56:35Z",
-      "source": "previous latest.json",
+      "status": "ok",
+      "last_updated": "2026-11-13T02:33:21Z",
+      "source": "https://mopsfin.twse.com.tw/opendata/t187ap05_L.csv",
+      "success_count": 10,
       "missing": [],
-      "notes": [
-        "market-only update: fundamental component carried forward"
-      ]
+      "notes": [],
+      "raw_snapshot": "data/raw/tw_revenue_latest.csv"
     },
     "sec_capex": {
-      "status": "stale",
-      "last_updated": "2026-11-12T03:56:35Z",
-      "source": "previous latest.json",
+      "status": "ok",
+      "last_updated": "2026-11-13T02:33:35Z",
+      "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK##########.json",
+      "success_count": 4,
       "missing": [],
-      "notes": [
-        "market-only update: fundamental component carried forward"
-      ]
+      "notes": [],
+      "coverage": 1.0,
+      "valid_companies": 4,
+      "expected_companies": 4,
+      "raw_capex_score": 100.0,
+      "tag_usage": {
+        "MSFT": "PaymentsToAcquirePropertyPlantAndEquipment",
+        "GOOGL": "PaymentsToAcquirePropertyPlantAndEquipment",
+        "META": "PaymentsToAcquirePropertyPlantAndEquipment",
+        "AMZN": "PaymentsToAcquireProductiveAssets"
+      },
+      "company_confidence": {
+        "MSFT": "high",
+        "GOOGL": "medium",
+        "META": "medium",
+        "AMZN": "high"
+      }
     },
     "market_prices": {
       "status": "ok",
-      "last_updated": "2026-11-12T21:32:03Z",
+      "last_updated": "2026-11-13T02:33:39Z",
       "source": "Stooq / Yahoo Finance chart / Nasdaq historical",
       "success_count": 10,
       "missing": [],
