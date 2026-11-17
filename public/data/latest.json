@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-16T23:28:23Z",
+  "as_of": "2026-11-17T04:25:56Z",
   "ai_rdm_score": 80.8,
   "aird_m_score": 80.8,
   "status": "強擴張",
@@ -7,7 +7,7 @@
   "subscores": {
     "supply_chain_revenue": 94.0,
     "hyperscaler_capex": 100.0,
-    "market_confirmation": 17.5
+    "market_confirmation": 17.6
   },
   "warnings": {
     "slowdown": false,
@@ -15,15 +15,12 @@
   },
   "interpretation_for_00988a": "目前 AI 基建需求仍在擴張，對 00988A 的產業主軸偏正面，但仍需觀察市場價格是否過熱。",
   "source_status": {
-    "tw_revenue": "stale",
-    "sec_capex": "stale",
+    "tw_revenue": "ok",
+    "sec_capex": "ok",
     "market_prices": "ok"
   },
-  "stale": true,
-  "stale_components": [
-    "hyperscaler_capex",
-    "supply_chain_revenue"
-  ],
+  "stale": false,
+  "stale_components": [],
   "details": {
     "supply_chain_revenue": {
       "score": 94.0,
@@ -558,7 +555,7 @@
       ]
     },
     "market_confirmation": {
-      "score": 17.5,
+      "score": 17.6,
       "basket_return_20d_pct": -14.37,
       "benchmark_return_20d_pct": -7.88,
       "spread_pct": -6.49,
@@ -614,7 +611,7 @@
         {
           "ticker": "ASML",
           "return_20d_pct": -14.48,
-          "last_close": 1406.7850341796875,
+          "last_close": 1406.7900390625,
           "last_date": "2026-11-16",
           "source": "yahoo",
           "status": "ok"
@@ -637,8 +634,8 @@
         },
         {
           "ticker": "SMCI",
-          "return_20d_pct": -22.04,
-          "last_close": 25.024999618530273,
+          "return_20d_pct": -22.02,
+          "last_close": 25.030000686645508,
           "last_date": "2026-11-16",
           "source": "yahoo",
           "status": "ok"
