@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-24T23:35:30Z",
+  "as_of": "2026-11-25T04:51:45Z",
   "ai_rdm_score": 77.3,
   "aird_m_score": 77.3,
   "status": "強擴張",
@@ -15,15 +15,12 @@
   },
   "interpretation_for_00988a": "目前 AI 基建需求仍在擴張，對 00988A 的產業主軸偏正面，但仍需觀察市場價格是否過熱。",
   "source_status": {
-    "tw_revenue": "stale",
-    "sec_capex": "stale",
+    "tw_revenue": "ok",
+    "sec_capex": "ok",
     "market_prices": "ok"
   },
-  "stale": true,
-  "stale_components": [
-    "hyperscaler_capex",
-    "supply_chain_revenue"
-  ],
+  "stale": false,
+  "stale_components": [],
   "details": {
     "supply_chain_revenue": {
       "score": 94.0,
@@ -559,9 +556,9 @@
     },
     "market_confirmation": {
       "score": 0.0,
-      "basket_return_20d_pct": -24.34,
+      "basket_return_20d_pct": -24.33,
       "benchmark_return_20d_pct": -11.53,
-      "spread_pct": -12.81,
+      "spread_pct": -12.8,
       "benchmark": {
         "ticker": "QQQ",
         "return_20d_pct": -11.53,
@@ -629,7 +626,7 @@
         },
         {
           "ticker": "VRT",
-          "return_20d_pct": -16.66,
+          "return_20d_pct": -16.61,
           "last_close": 173.82000732421875,
           "last_date": "2026-11-24",
           "source": "yahoo",
